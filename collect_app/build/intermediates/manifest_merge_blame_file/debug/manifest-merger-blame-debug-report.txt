@@ -1,0 +1,1225 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.odk.collect.android"
+4    android:versionCode="4274"
+5    android:versionName="v2021.2.3-126-g0f7f85a87-dirty" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+11-->/Users/bhawak/Documents/collect/collect_app/src/debug/AndroidManifest.xml:6:5-74
+11-->/Users/bhawak/Documents/collect/collect_app/src/debug/AndroidManifest.xml:6:22-72
+12
+13    <!-- Allows changing locales -->
+14    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+14-->/Users/bhawak/Documents/collect/collect_app/src/debug/AndroidManifest.xml:9:5-115
+14-->/Users/bhawak/Documents/collect/collect_app/src/debug/AndroidManifest.xml:9:22-76
+15
+16    <uses-feature
+16-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:15:5-17:36
+17        android:name="android.hardware.location"
+17-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:16:9-49
+18        android:required="false" />
+18-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:17:9-33
+19    <uses-feature
+19-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:18:5-20:36
+20        android:name="android.hardware.location.network"
+20-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:19:9-57
+21        android:required="false" />
+21-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:20:9-33
+22    <uses-feature
+22-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:21:5-23:36
+23        android:name="android.hardware.location.gps"
+23-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:22:9-53
+24        android:required="false" />
+24-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:23:9-33
+25    <uses-feature
+25-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:24:5-26:36
+26        android:name="android.hardware.telephony"
+26-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:25:9-50
+27        android:required="false" />
+27-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:26:9-33
+28    <uses-feature
+28-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:27:5-29:36
+29        android:name="android.hardware.wifi"
+29-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:28:9-45
+30        android:required="false" /> <!-- Dangerous permissions -->
+30-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:29:9-33
+31    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+31-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:32:5-79
+31-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:32:22-76
+32    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+32-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:33:5-81
+32-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:33:22-78
+33    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+33-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:34:5-80
+33-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:34:22-77
+34    <uses-permission android:name="android.permission.CAMERA" />
+34-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:35:5-65
+34-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:35:22-62
+35    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+35-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:36:5-75
+35-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:36:22-72
+36    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+36-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:37:5-71
+36-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:37:22-68
+37    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- Normal permissions -->
+37-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:38:5-71
+37-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:38:22-68
+38    <uses-permission android:name="android.permission.INTERNET" />
+38-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:41:5-67
+38-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:41:22-64
+39    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+39-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:42:5-76
+39-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:42:22-73
+40    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+40-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:43:5-79
+40-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:43:22-76
+41    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Removed in API 23 -->
+41-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:44:5-68
+41-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:44:22-65
+42    <uses-permission
+42-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:47:5-49:38
+43        android:name="android.permission.USE_CREDENTIALS"
+43-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:48:9-58
+44        android:maxSdkVersion="22" />
+44-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:49:9-35
+45    <uses-permission
+45-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:50:5-52:38
+46        android:name="android.permission.MANAGE_ACCOUNTS"
+46-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:51:9-58
+47        android:maxSdkVersion="22" />
+47-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:52:9-35
+48
+49    <uses-feature
+49-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:54:5-56:36
+50        android:name="android.hardware.camera"
+50-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:55:9-47
+51        android:required="false" />
+51-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:56:9-33
+52    <uses-feature
+52-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:57:5-59:36
+53        android:name="android.hardware.camera.autofocus"
+53-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:58:9-57
+54        android:required="false" />
+54-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:59:9-33
+55    <uses-feature
+55-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:60:5-62:36
+56        android:name="android.hardware.screen.portrait"
+56-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:61:9-56
+57        android:required="false" />
+57-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:62:9-33
+58
+59    <supports-screens
+59-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:64:5-70:40
+60        android:anyDensity="true"
+60-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:65:9-34
+61        android:largeScreens="true"
+61-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:66:9-36
+62        android:normalScreens="true"
+62-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:67:9-37
+63        android:resizeable="true"
+63-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:68:9-34
+64        android:smallScreens="true"
+64-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:69:9-36
+65        android:xlargeScreens="true" />
+65-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:70:9-37
+66
+67    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+67-->[:audiorecorder] /Users/bhawak/Documents/collect/audiorecorder/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-77
+67-->[:audiorecorder] /Users/bhawak/Documents/collect/audiorecorder/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-74
+68    <uses-permission android:name="android.permission.REORDER_TASKS" />
+68-->[androidx.fragment:fragment-testing:1.3.6] /Users/bhawak/.gradle/caches/transforms-3/8deb754e072de0c5f2e35eb84eb7e728/transformed/jetified-fragment-testing-1.3.6/AndroidManifest.xml:25:5-72
+68-->[androidx.fragment:fragment-testing:1.3.6] /Users/bhawak/.gradle/caches/transforms-3/8deb754e072de0c5f2e35eb84eb7e728/transformed/jetified-fragment-testing-1.3.6/AndroidManifest.xml:25:22-69
+69    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+69-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:27:5-81
+69-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:27:22-78
+70
+71    <uses-feature
+71-->[com.google.android.gms:play-services-maps:17.0.1] /Users/bhawak/.gradle/caches/transforms-3/090b2277c909b085766ec060358727c3/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:26:5-28:35
+72        android:glEsVersion="0x00020000"
+72-->[com.google.android.gms:play-services-maps:17.0.1] /Users/bhawak/.gradle/caches/transforms-3/090b2277c909b085766ec060358727c3/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:27:9-41
+73        android:required="true" />
+73-->[com.google.android.gms:play-services-maps:17.0.1] /Users/bhawak/.gradle/caches/transforms-3/090b2277c909b085766ec060358727c3/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:28:9-32
+74
+75    <queries>
+75-->[com.google.android.gms:play-services-maps:17.0.1] /Users/bhawak/.gradle/caches/transforms-3/090b2277c909b085766ec060358727c3/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:30:5-34:15
+76
+77        <!-- Needs to be explicitly declared on Android R+ -->
+78        <package android:name="com.google.android.apps.maps" />
+78-->[com.google.android.gms:play-services-maps:17.0.1] /Users/bhawak/.gradle/caches/transforms-3/090b2277c909b085766ec060358727c3/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:9-64
+78-->[com.google.android.gms:play-services-maps:17.0.1] /Users/bhawak/.gradle/caches/transforms-3/090b2277c909b085766ec060358727c3/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:33:18-61
+79        <package android:name="androidx.test.orchestrator" />
+79-->[androidx.test:runner:1.4.0] /Users/bhawak/.gradle/caches/transforms-3/00301f4a5f0b70d2851d3c979194c6bc/transformed/runner-1.4.0/AndroidManifest.xml:25:9-62
+79-->[androidx.test:runner:1.4.0] /Users/bhawak/.gradle/caches/transforms-3/00301f4a5f0b70d2851d3c979194c6bc/transformed/runner-1.4.0/AndroidManifest.xml:25:18-59
+80        <package android:name="androidx.test.services" />
+80-->[androidx.test:runner:1.4.0] /Users/bhawak/.gradle/caches/transforms-3/00301f4a5f0b70d2851d3c979194c6bc/transformed/runner-1.4.0/AndroidManifest.xml:26:9-58
+80-->[androidx.test:runner:1.4.0] /Users/bhawak/.gradle/caches/transforms-3/00301f4a5f0b70d2851d3c979194c6bc/transformed/runner-1.4.0/AndroidManifest.xml:26:18-55
+81        <package android:name="com.google.android.apps.common.testing.services" />
+81-->[androidx.test:runner:1.4.0] /Users/bhawak/.gradle/caches/transforms-3/00301f4a5f0b70d2851d3c979194c6bc/transformed/runner-1.4.0/AndroidManifest.xml:27:9-83
+81-->[androidx.test:runner:1.4.0] /Users/bhawak/.gradle/caches/transforms-3/00301f4a5f0b70d2851d3c979194c6bc/transformed/runner-1.4.0/AndroidManifest.xml:27:18-80
+82    </queries>
+83
+84    <uses-feature
+84-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:28:5-30:36
+85        android:name="android.hardware.camera.front"
+85-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:29:9-53
+86        android:required="false" />
+86-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:30:9-33
+87    <uses-feature
+87-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:36:5-38:36
+88        android:name="android.hardware.camera.flash"
+88-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:37:9-53
+89        android:required="false" />
+89-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:38:9-33
+90    <uses-feature
+90-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:39:5-41:36
+91        android:name="android.hardware.screen.landscape"
+91-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:40:9-57
+92        android:required="false" />
+92-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:41:9-33
+93
+94    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+94-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+94-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+95    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+95-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:24:5-81
+95-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:24:22-78
+96
+97    <application
+97-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:72:5-297:19
+98        android:name="org.odk.collect.android.application.Collect"
+98-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:73:9-44
+99        android:allowBackup="true"
+99-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:74:9-35
+100        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+100-->[androidx.core:core:1.6.0] /Users/bhawak/.gradle/caches/transforms-3/e1b55be1abd470f716e3312adf0a888b/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+101        android:debuggable="true"
+102        android:icon="@drawable/csappicon"
+102-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:75:9-43
+103        android:installLocation="auto"
+103-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:76:9-39
+104        android:label="@string/collect_app_name"
+104-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:77:9-49
+105        android:largeHeap="true"
+105-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:78:9-33
+106        android:networkSecurityConfig="@xml/network_security_config"
+106-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:79:9-69
+107        android:supportsRtl="true"
+107-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:80:9-35
+108        android:testOnly="true"
+109        android:usesCleartextTraffic="true" >
+109-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:81:9-44
+110        <provider
+111            android:name="androidx.core.content.FileProvider"
+112            android:authorities="org.odk.collect.android.provider"
+113            android:exported="false"
+114            android:grantUriPermissions="true" >
+115            <meta-data
+115-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:34:13-36:66
+116                android:name="android.support.FILE_PROVIDER_PATHS"
+116-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:35:17-67
+117                android:resource="@xml/provider_paths" />
+117-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:36:17-63
+118        </provider>
+119
+120        <activity android:name="org.odk.collect.android.activities.FirstLaunchActivity" />
+120-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:93:9-68
+120-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:93:19-65
+121        <activity android:name="org.odk.collect.android.activities.MainMenuActivity" />
+121-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:94:9-65
+121-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:94:19-62
+122        <activity
+122-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:95:9-99:63
+123            android:name="org.odk.collect.android.activities.ScannerWithFlashlightActivity"
+123-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:96:13-69
+124            android:screenOrientation="portrait"
+124-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:97:13-49
+125            android:stateNotNeeded="true"
+125-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:98:13-42
+126            android:windowSoftInputMode="stateAlwaysHidden" />
+126-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:99:13-60
+127        <activity
+127-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:100:9-102:58
+128            android:name="org.odk.collect.android.activities.FormEntryActivity"
+128-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:101:13-57
+129            android:windowSoftInputMode="adjustResize" />
+129-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:102:13-55
+130
+131        <activity-alias
+131-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:188:9-193:26
+132            android:name="org.odk.collect.android.activities.FormEntryActivity"
+132-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:189:13-57
+133            android:exported="true"
+133-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:192:13-36
+134            android:targetActivity="org.odk.collect.android.activities.FormEntryActivity" >
+134-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:190:13-67
+135        </activity-alias>
+136
+137        <activity
+137-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:103:9-108:86
+138            android:name="org.odk.collect.android.activities.NotificationActivity"
+138-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:104:13-60
+139            android:excludeFromRecents="true"
+139-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:105:13-46
+140            android:launchMode="singleTask"
+140-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:106:13-44
+141            android:taskAffinity=""
+141-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:107:13-36
+142            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+142-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:108:13-83
+143        <activity
+143-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:109:9-111:53
+144            android:name="org.odk.collect.android.activities.DrawActivity"
+144-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:110:13-52
+145            android:screenOrientation="landscape" />
+145-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:111:13-50
+146        <activity
+146-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:112:9-115:57
+147            android:name="org.odk.collect.android.gdrive.GoogleDriveActivity"
+147-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:113:13-55
+148            android:configChanges="orientation|screenSize"
+148-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:114:13-59
+149            android:windowSoftInputMode="stateHidden" />
+149-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:115:13-54
+150        <activity android:name="org.odk.collect.android.activities.InstanceChooserList" />
+150-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:116:9-68
+150-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:116:19-65
+151
+152        <activity-alias
+152-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:195:9-208:26
+153            android:name="org.odk.collect.android.activities.InstanceChooserList"
+153-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:196:13-59
+154            android:targetActivity="org.odk.collect.android.activities.InstanceChooserList" >
+154-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:197:13-69
+155            <intent-filter>
+155-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:199:13-207:29
+156                <action android:name="android.intent.action.VIEW" />
+156-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:200:17-69
+156-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:200:25-66
+157                <action android:name="android.intent.action.EDIT" />
+157-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:201:17-69
+157-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:201:25-66
+158                <action android:name="android.intent.action.PICK" />
+158-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:202:17-69
+158-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:202:25-66
+159
+160                <category android:name="android.intent.category.DEFAULT" />
+160-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:17-76
+160-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:27-73
+161
+162                <data android:mimeType="vnd.android.cursor.dir/vnd.odk.instance" />
+162-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:206:17-84
+162-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:206:23-81
+163            </intent-filter>
+164        </activity-alias>
+165
+166        <activity
+166-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:117:9-119:46
+167            android:name="org.odk.collect.android.activities.FillBlankFormActivity"
+167-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:118:13-61
+168            android:launchMode="singleTop" />
+168-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:119:13-43
+169
+170        <activity-alias
+170-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:210:9-223:26
+171            android:name="org.odk.collect.android.activities.FormChooserList"
+171-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:211:13-55
+172            android:targetActivity="org.odk.collect.android.activities.FillBlankFormActivity" >
+172-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:212:13-71
+173            <intent-filter>
+173-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:214:13-222:29
+174                <action android:name="android.intent.action.VIEW" />
+174-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:200:17-69
+174-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:200:25-66
+175                <action android:name="android.intent.action.EDIT" />
+175-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:201:17-69
+175-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:201:25-66
+176                <action android:name="android.intent.action.PICK" />
+176-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:202:17-69
+176-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:202:25-66
+177
+178                <category android:name="android.intent.category.DEFAULT" />
+178-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:17-76
+178-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:27-73
+179
+180                <data android:mimeType="vnd.android.cursor.dir/vnd.odk.form" />
+180-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:206:17-84
+180-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:206:23-81
+181            </intent-filter>
+182        </activity-alias>
+183
+184        <activity android:name="org.odk.collect.android.activities.FormDownloadListActivity" />
+184-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:120:9-73
+184-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:120:19-70
+185
+186        <activity-alias
+186-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:225:9-233:26
+187            android:name="org.odk.collect.android.activities.FormDownloadList"
+187-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:226:13-56
+188            android:targetActivity="org.odk.collect.android.activities.FormDownloadListActivity" >
+188-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:227:13-74
+189            <intent-filter>
+189-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:228:13-232:29
+190                <action android:name="org.odk.collect.android.FORM_DOWNLOAD" />
+190-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:229:17-80
+190-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:229:25-77
+191
+192                <category android:name="android.intent.category.DEFAULT" />
+192-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:17-76
+192-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:27-73
+193
+194                <data android:mimeType="vnd.android.cursor.dir/vnd.odk.form" />
+194-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:206:17-84
+194-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:206:23-81
+195            </intent-filter>
+196        </activity-alias>
+197
+198        <activity
+198-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:121:9-123:62
+199            android:name="org.odk.collect.android.activities.DeleteSavedFormActivity"
+199-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:122:13-63
+200            android:configChanges="orientation|screenSize" />
+200-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:123:13-59
+201        <activity
+201-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:124:9-126:62
+202            android:name="org.odk.collect.android.gdrive.GoogleSheetsUploaderActivity"
+202-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:125:13-64
+203            android:configChanges="orientation|screenSize" />
+203-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:126:13-59
+204        <activity
+204-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:127:9-129:62
+205            android:name="org.odk.collect.android.activities.InstanceUploaderListActivity"
+205-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:128:13-68
+206            android:configChanges="orientation|screenSize" />
+206-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:129:13-59
+207
+208        <activity-alias
+208-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:235:9-244:26
+209            android:name="org.odk.collect.android.activities.InstanceUploaderList"
+209-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:236:13-60
+210            android:targetActivity="org.odk.collect.android.activities.InstanceUploaderListActivity" >
+210-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:237:13-78
+211            <intent-filter>
+211-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:238:13-243:29
+212                <action android:name="android.intent.action.VIEW" />
+212-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:200:17-69
+212-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:200:25-66
+213                <action android:name="android.intent.action.EDIT" />
+213-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:201:17-69
+213-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:201:25-66
+214
+215                <category android:name="android.intent.category.DEFAULT" />
+215-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:17-76
+215-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:27-73
+216            </intent-filter>
+217        </activity-alias>
+218
+219        <activity android:name="org.odk.collect.android.activities.InstanceUploaderActivity" />
+219-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:130:9-73
+219-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:130:19-70
+220
+221        <activity-alias
+221-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:246:9-254:26
+222            android:name="org.odk.collect.android.activities.InstanceUploaderActivity"
+222-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:247:13-64
+223            android:targetActivity="org.odk.collect.android.activities.InstanceUploaderActivity" >
+223-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:248:13-74
+224            <intent-filter>
+224-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:249:13-253:29
+225                <action android:name="org.odk.collect.android.INSTANCE_UPLOAD" />
+225-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:250:17-82
+225-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:250:25-79
+226
+227                <category android:name="android.intent.category.DEFAULT" />
+227-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:17-76
+227-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:27-73
+228
+229                <data android:mimeType="vnd.android.cursor.dir/vnd.odk.instance" />
+229-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:206:17-84
+229-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:206:23-81
+230            </intent-filter>
+231        </activity-alias>
+232
+233        <activity android:name="org.odk.collect.android.activities.AboutActivity" />
+233-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:131:9-62
+233-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:131:19-59
+234        <activity android:name="org.odk.collect.android.configure.qr.QRCodeTabsActivity" />
+234-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:132:9-69
+234-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:132:19-66
+235        <activity android:name="org.odk.collect.android.preferences.screens.ProjectPreferencesActivity" />
+235-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:133:9-84
+235-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:133:19-81
+236        <activity android:name="org.odk.collect.android.activities.FormHierarchyActivity" />
+236-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:134:9-70
+236-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:134:19-67
+237        <activity android:name="org.odk.collect.android.activities.ViewOnlyFormHierarchyActivity" />
+237-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:135:9-78
+237-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:135:19-75
+238        <activity android:name="org.odk.collect.android.activities.GeoPointActivity" />
+238-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:136:9-65
+238-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:136:19-62
+239        <activity android:name="org.odk.collect.android.activities.GeoPointMapActivity" />
+239-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:137:9-68
+239-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:137:19-65
+240        <activity android:name="org.odk.collect.android.activities.GeoPolyActivity" />
+240-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:138:9-64
+240-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:138:19-61
+241        <activity android:name="org.odk.collect.android.activities.FormMapActivity" />
+241-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:139:9-64
+241-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:139:19-61
+242        <activity android:name="org.odk.collect.android.activities.BearingActivity" />
+242-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:140:9-64
+242-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:140:19-61
+243        <activity
+243-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:141:9-143:56
+244            android:name="org.odk.collect.android.activities.SplashScreenActivity"
+244-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:142:13-60
+245            android:theme="@style/Theme.Transparent" />
+245-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:143:13-53
+246
+247        <activity-alias
+247-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:256:9-265:26
+248            android:name="org.odk.collect.android.activities.SplashScreenActivity"
+248-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:257:13-60
+249            android:targetActivity="org.odk.collect.android.activities.SplashScreenActivity" >
+249-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:258:13-70
+250            <intent-filter>
+250-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:259:13-264:29
+251                <action android:name="android.intent.action.MAIN" />
+251-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:260:17-69
+251-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:260:25-66
+252
+253                <category android:name="android.intent.category.DEFAULT" />
+253-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:17-76
+253-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:27-73
+254                <category android:name="android.intent.category.LAUNCHER" />
+254-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:263:17-77
+254-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:263:27-74
+255            </intent-filter>
+256        </activity-alias>
+257
+258        <activity android:name="org.odk.collect.android.activities.CaptureSelfieActivity" />
+258-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:144:9-70
+258-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:144:19-67
+259        <activity android:name="org.odk.collect.android.activities.WebViewActivity" />
+259-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:145:9-64
+259-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:145:19-61
+260        <activity android:name="org.odk.collect.android.activities.CaptureSelfieVideoActivity" />
+260-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:146:9-75
+260-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:146:19-72
+261
+262        <!-- Configure this key by setting GOOGLE_MAPS_API_KEY in collect_app/secrets.properties. -->
+263        <meta-data
+263-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:149:9-151:59
+264            android:name="com.google.android.geo.API_KEY"
+264-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:150:13-58
+265            android:value="@string/GOOGLE_MAPS_API_KEY" />
+265-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:151:13-56
+266        <meta-data
+266-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:152:9-155:45
+267            android:name="com.google.android.gms.version"
+267-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:153:13-58
+268            android:value="@integer/google_play_services_version" /> <!-- integer/google_play_services_version -->
+268-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:154:13-66
+269
+270        <meta-data
+270-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:157:9-159:37
+271            android:name="firebase_analytics_collection_enabled"
+271-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:158:13-65
+272            android:value="false" />
+272-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:159:13-34
+273        <meta-data
+273-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:161:9-163:37
+274            android:name="firebase_crashlytics_collection_enabled"
+274-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:162:13-67
+275            android:value="false" />
+275-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:163:13-34
+276
+277        <uses-library
+277-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:165:9-167:40
+278            android:name="com.google.android.maps"
+278-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:166:13-51
+279            android:required="false" />
+279-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:167:13-37
+280
+281        <!--
+282             ******************External API, DO NOT CHANGE BEFORE DISCUSSING***********************
+283             * The providers and activities below are available for external applications to      *
+284             * integrate with and are actively in use. If one of these needs to change for some   *
+285             * reason, it needs to be placed on a deprecation path so users can adapt before the  *
+286             * change. If an activity needs to be renamed internally, use an activity-alias. If   *
+287             * the external API needs to be expanded, introduce carefully-named actions.          *
+288             **************************************************************************************
+289        -->
+290
+291        <provider
+291-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:179:9-182:39
+292            android:name="org.odk.collect.android.external.FormsProvider"
+292-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:180:13-51
+293            android:authorities="org.odk.collect.android.provider.odk.forms"
+293-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:181:13-77
+294            android:exported="true" />
+294-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:182:13-36
+295        <provider
+295-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:183:9-186:39
+296            android:name="org.odk.collect.android.external.InstanceProvider"
+296-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:184:13-54
+297            android:authorities="org.odk.collect.android.provider.odk.instances"
+297-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:185:13-81
+298            android:exported="true" />
+298-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:186:13-36
+299
+300        <!-- Enable Shortcuts for Command Actions -->
+301        <activity
+301-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:268:9-277:20
+302            android:name="org.odk.collect.android.external.AndroidShortcutsActivity"
+302-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:269:13-62
+303            android:label="ODK Form"
+303-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:270:13-37
+304            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+304-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:271:13-69
+305            <intent-filter>
+305-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:272:13-276:29
+306                <action android:name="android.intent.action.CREATE_SHORTCUT" />
+306-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:273:17-80
+306-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:273:25-77
+307
+308                <category android:name="android.intent.category.DEFAULT" />
+308-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:17-76
+308-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:27-73
+309            </intent-filter>
+310        </activity>
+311
+312        <!--
+313        Supports VIEW and EDIT actions for forms and instances (documented at
+314        https://docs.getodk.org/launch-collect-from-app/#using-a-uri-to-edit-a-form-or-instance).
+315        Do not use the activity directly as its name/package might change.
+316        -->
+317        <activity
+317-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:282:9-295:20
+318            android:name="org.odk.collect.android.external.FormUriActivity"
+318-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:283:13-53
+319            android:noHistory="true" >
+319-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:284:13-37
+320            <intent-filter>
+320-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:287:13-294:29
+321                <action android:name="android.intent.action.VIEW" />
+321-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:200:17-69
+321-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:200:25-66
+322                <action android:name="android.intent.action.EDIT" />
+322-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:201:17-69
+322-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:201:25-66
+323
+324                <category android:name="android.intent.category.DEFAULT" />
+324-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:17-76
+324-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:204:27-73
+325
+326                <data android:mimeType="vnd.android.cursor.item/vnd.odk.form" />
+326-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:206:17-84
+326-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:206:23-81
+327                <data android:mimeType="vnd.android.cursor.item/vnd.odk.instance" />
+327-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:206:17-84
+327-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:206:23-81
+328            </intent-filter>
+329        </activity>
+330
+331        <service android:name="org.odk.collect.audiorecorder.recording.AudioRecorderService" />
+331-->[:audiorecorder] /Users/bhawak/Documents/collect/audiorecorder/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-96
+331-->[:audiorecorder] /Users/bhawak/Documents/collect/audiorecorder/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-93
+332        <service
+332-->[:location] /Users/bhawak/Documents/collect/location/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:56
+333            android:name="org.odk.collect.location.tracker.LocationTrackerService"
+333-->[:location] /Users/bhawak/Documents/collect/location/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+334            android:foregroundServiceType="location" />
+334-->[:location] /Users/bhawak/Documents/collect/location/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-53
+335
+336        <activity android:name="org.odk.collect.androidshared.ui.ReturnToAppActivity" />
+336-->[:androidshared] /Users/bhawak/Documents/collect/androidshared/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-89
+336-->[:androidshared] /Users/bhawak/Documents/collect/androidshared/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:19-86
+337        <activity
+337-->[androidx.fragment:fragment-testing:1.3.6] /Users/bhawak/.gradle/caches/transforms-3/8deb754e072de0c5f2e35eb84eb7e728/transformed/jetified-fragment-testing-1.3.6/AndroidManifest.xml:28:9-37:20
+338            android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
+338-->[androidx.fragment:fragment-testing:1.3.6] /Users/bhawak/.gradle/caches/transforms-3/8deb754e072de0c5f2e35eb84eb7e728/transformed/jetified-fragment-testing-1.3.6/AndroidManifest.xml:29:13-96
+339            android:exported="true"
+339-->[androidx.fragment:fragment-testing:1.3.6] /Users/bhawak/.gradle/caches/transforms-3/8deb754e072de0c5f2e35eb84eb7e728/transformed/jetified-fragment-testing-1.3.6/AndroidManifest.xml:30:13-36
+340            android:multiprocess="true"
+340-->[androidx.fragment:fragment-testing:1.3.6] /Users/bhawak/.gradle/caches/transforms-3/8deb754e072de0c5f2e35eb84eb7e728/transformed/jetified-fragment-testing-1.3.6/AndroidManifest.xml:31:13-40
+341            android:taskAffinity=""
+341-->[androidx.fragment:fragment-testing:1.3.6] /Users/bhawak/.gradle/caches/transforms-3/8deb754e072de0c5f2e35eb84eb7e728/transformed/jetified-fragment-testing-1.3.6/AndroidManifest.xml:32:13-36
+342            android:theme="@style/FragmentScenarioEmptyFragmentActivityTheme" >
+342-->[androidx.fragment:fragment-testing:1.3.6] /Users/bhawak/.gradle/caches/transforms-3/8deb754e072de0c5f2e35eb84eb7e728/transformed/jetified-fragment-testing-1.3.6/AndroidManifest.xml:33:13-78
+343            <intent-filter>
+343-->[androidx.fragment:fragment-testing:1.3.6] /Users/bhawak/.gradle/caches/transforms-3/8deb754e072de0c5f2e35eb84eb7e728/transformed/jetified-fragment-testing-1.3.6/AndroidManifest.xml:34:13-36:29
+344                <action android:name="android.intent.action.MAIN" />
+344-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:260:17-69
+344-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:260:25-66
+345            </intent-filter>
+346        </activity>
+347
+348        <service
+348-->[com.squareup.leakcanary:leakcanary-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/3197eef4282b32657226a22a289ac5b6/transformed/jetified-leakcanary-android-2.7/AndroidManifest.xml:23:9-25:40
+349            android:name="leakcanary.internal.HeapAnalyzerService"
+349-->[com.squareup.leakcanary:leakcanary-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/3197eef4282b32657226a22a289ac5b6/transformed/jetified-leakcanary-android-2.7/AndroidManifest.xml:24:13-67
+350            android:exported="false" />
+350-->[com.squareup.leakcanary:leakcanary-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/3197eef4282b32657226a22a289ac5b6/transformed/jetified-leakcanary-android-2.7/AndroidManifest.xml:25:13-37
+351
+352        <activity
+352-->[com.karumi:dexter:6.2.3] /Users/bhawak/.gradle/caches/transforms-3/71a0217f03409f96e4776294b2c651a8/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:27:9-29:72
+353            android:name="com.karumi.dexter.DexterActivity"
+353-->[com.karumi:dexter:6.2.3] /Users/bhawak/.gradle/caches/transforms-3/71a0217f03409f96e4776294b2c651a8/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:28:13-60
+354            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+354-->[com.karumi:dexter:6.2.3] /Users/bhawak/.gradle/caches/transforms-3/71a0217f03409f96e4776294b2c651a8/transformed/jetified-dexter-6.2.3/AndroidManifest.xml:29:13-69
+355
+356        <provider
+356-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:31:9-37:35
+357            android:name="androidx.work.impl.WorkManagerInitializer"
+357-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:32:13-69
+358            android:authorities="org.odk.collect.android.workmanager-init"
+358-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:33:13-68
+359            android:directBootAware="false"
+359-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:34:13-44
+360            android:exported="false"
+360-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:35:13-37
+361            android:multiprocess="true" />
+361-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:36:13-40
+362
+363        <service
+363-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:39:9-44:35
+364            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+364-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:40:13-88
+365            android:directBootAware="false"
+365-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:41:13-44
+366            android:enabled="@bool/enable_system_alarm_service_default"
+366-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:42:13-72
+367            android:exported="false" />
+367-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:43:13-37
+368        <service
+368-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:45:9-51:35
+369            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+369-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:46:13-84
+370            android:directBootAware="false"
+370-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:47:13-44
+371            android:enabled="@bool/enable_system_job_service_default"
+371-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:48:13-70
+372            android:exported="true"
+372-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:49:13-36
+373            android:permission="android.permission.BIND_JOB_SERVICE" />
+373-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:50:13-69
+374        <service
+374-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:52:9-57:35
+375            android:name="androidx.work.impl.foreground.SystemForegroundService"
+375-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:53:13-81
+376            android:directBootAware="false"
+376-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:54:13-44
+377            android:enabled="@bool/enable_system_foreground_service_default"
+377-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:55:13-77
+378            android:exported="false" />
+378-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:56:13-37
+379
+380        <receiver
+380-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:59:9-64:35
+381            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+381-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:60:13-88
+382            android:directBootAware="false"
+382-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:61:13-44
+383            android:enabled="true"
+383-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:62:13-35
+384            android:exported="false" />
+384-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:63:13-37
+385        <receiver
+385-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:65:9-75:20
+386            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+386-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:66:13-106
+387            android:directBootAware="false"
+387-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:67:13-44
+388            android:enabled="false"
+388-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:68:13-36
+389            android:exported="false" >
+389-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:69:13-37
+390            <intent-filter>
+390-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:71:13-74:29
+391                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+391-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:17-87
+391-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:72:25-84
+392                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+392-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:17-90
+392-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:73:25-87
+393            </intent-filter>
+394        </receiver>
+395        <receiver
+395-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:76:9-86:20
+396            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+396-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:77:13-104
+397            android:directBootAware="false"
+397-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:78:13-44
+398            android:enabled="false"
+398-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:79:13-36
+399            android:exported="false" >
+399-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:80:13-37
+400            <intent-filter>
+400-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:82:13-85:29
+401                <action android:name="android.intent.action.BATTERY_OKAY" />
+401-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:17-77
+401-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:83:25-74
+402                <action android:name="android.intent.action.BATTERY_LOW" />
+402-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:17-76
+402-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:84:25-73
+403            </intent-filter>
+404        </receiver>
+405        <receiver
+405-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:87:9-97:20
+406            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+406-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:88:13-104
+407            android:directBootAware="false"
+407-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:89:13-44
+408            android:enabled="false"
+408-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:90:13-36
+409            android:exported="false" >
+409-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:91:13-37
+410            <intent-filter>
+410-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:93:13-96:29
+411                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+411-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:17-83
+411-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:94:25-80
+412                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+412-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:17-82
+412-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:95:25-79
+413            </intent-filter>
+414        </receiver>
+415        <receiver
+415-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:98:9-107:20
+416            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+416-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:99:13-103
+417            android:directBootAware="false"
+417-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:100:13-44
+418            android:enabled="false"
+418-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:101:13-36
+419            android:exported="false" >
+419-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:102:13-37
+420            <intent-filter>
+420-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:104:13-106:29
+421                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+421-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:17-79
+421-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:105:25-76
+422            </intent-filter>
+423        </receiver>
+424        <receiver
+424-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:108:9-119:20
+425            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+425-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:109:13-88
+426            android:directBootAware="false"
+426-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:110:13-44
+427            android:enabled="false"
+427-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:111:13-36
+428            android:exported="false" >
+428-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:112:13-37
+429            <intent-filter>
+429-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:114:13-118:29
+430                <action android:name="android.intent.action.BOOT_COMPLETED" />
+430-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:115:17-79
+430-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:115:25-76
+431                <action android:name="android.intent.action.TIME_SET" />
+431-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:17-73
+431-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:116:25-70
+432                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+432-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:17-81
+432-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:117:25-78
+433            </intent-filter>
+434        </receiver>
+435        <receiver
+435-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:120:9-129:20
+436            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+436-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:121:13-99
+437            android:directBootAware="false"
+437-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:122:13-44
+438            android:enabled="@bool/enable_system_alarm_service_default"
+438-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:123:13-72
+439            android:exported="false" >
+439-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:124:13-37
+440            <intent-filter>
+440-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:126:13-128:29
+441                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+441-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:17-98
+441-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:127:25-95
+442            </intent-filter>
+443        </receiver>
+444        <receiver
+444-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:130:9-140:20
+445            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+445-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:131:13-78
+446            android:directBootAware="false"
+446-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:132:13-44
+447            android:enabled="true"
+447-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:133:13-35
+448            android:exported="true"
+448-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:134:13-36
+449            android:permission="android.permission.DUMP" >
+449-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:135:13-57
+450            <intent-filter>
+450-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:137:13-139:29
+451                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+451-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:17-88
+451-->[androidx.work:work-runtime:2.5.0] /Users/bhawak/.gradle/caches/transforms-3/570714f40ce46ffc548b25574d6e02ec/transformed/work-runtime-2.5.0/AndroidManifest.xml:138:25-85
+452            </intent-filter>
+453        </receiver>
+454
+455        <activity
+455-->[com.google.android.gms:play-services-auth:19.2.0] /Users/bhawak/.gradle/caches/transforms-3/778085e2b0f4006b3d8efde173c77e8d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:23:9-27:75
+456            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+456-->[com.google.android.gms:play-services-auth:19.2.0] /Users/bhawak/.gradle/caches/transforms-3/778085e2b0f4006b3d8efde173c77e8d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:24:13-93
+457            android:excludeFromRecents="true"
+457-->[com.google.android.gms:play-services-auth:19.2.0] /Users/bhawak/.gradle/caches/transforms-3/778085e2b0f4006b3d8efde173c77e8d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:25:13-46
+458            android:exported="false"
+458-->[com.google.android.gms:play-services-auth:19.2.0] /Users/bhawak/.gradle/caches/transforms-3/778085e2b0f4006b3d8efde173c77e8d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:26:13-37
+459            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+459-->[com.google.android.gms:play-services-auth:19.2.0] /Users/bhawak/.gradle/caches/transforms-3/778085e2b0f4006b3d8efde173c77e8d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:27:13-72
+460        <!--
+461            Service handling Google Sign-In user revocation. For apps that do not integrate with
+462            Google Sign-In, this service will never be started.
+463        -->
+464        <service
+464-->[com.google.android.gms:play-services-auth:19.2.0] /Users/bhawak/.gradle/caches/transforms-3/778085e2b0f4006b3d8efde173c77e8d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:33:9-37:51
+465            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+465-->[com.google.android.gms:play-services-auth:19.2.0] /Users/bhawak/.gradle/caches/transforms-3/778085e2b0f4006b3d8efde173c77e8d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:34:13-89
+466            android:exported="true"
+466-->[com.google.android.gms:play-services-auth:19.2.0] /Users/bhawak/.gradle/caches/transforms-3/778085e2b0f4006b3d8efde173c77e8d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:35:13-36
+467            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+467-->[com.google.android.gms:play-services-auth:19.2.0] /Users/bhawak/.gradle/caches/transforms-3/778085e2b0f4006b3d8efde173c77e8d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:36:13-107
+468            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+468-->[com.google.android.gms:play-services-auth:19.2.0] /Users/bhawak/.gradle/caches/transforms-3/778085e2b0f4006b3d8efde173c77e8d/transformed/jetified-play-services-auth-19.2.0/AndroidManifest.xml:37:13-48
+469        <uses-library
+469-->[com.google.android.gms:play-services-maps:17.0.1] /Users/bhawak/.gradle/caches/transforms-3/090b2277c909b085766ec060358727c3/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:39:9-41:40
+470            android:name="org.apache.http.legacy"
+470-->[com.google.android.gms:play-services-maps:17.0.1] /Users/bhawak/.gradle/caches/transforms-3/090b2277c909b085766ec060358727c3/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:40:13-50
+471            android:required="false" />
+471-->[com.google.android.gms:play-services-maps:17.0.1] /Users/bhawak/.gradle/caches/transforms-3/090b2277c909b085766ec060358727c3/transformed/jetified-play-services-maps-17.0.1/AndroidManifest.xml:41:13-37
+472
+473        <service
+473-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/bhawak/.gradle/caches/transforms-3/eb7649864122240463650437ba5936b2/transformed/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:15:9-21:19
+474            android:name="com.google.firebase.components.ComponentDiscoveryService"
+474-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/bhawak/.gradle/caches/transforms-3/eb7649864122240463650437ba5936b2/transformed/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:16:13-84
+475            android:directBootAware="true"
+475-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-3/cd3526afdbed1fd0f6d1ef32cbc7ff4c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+476            android:exported="false" >
+476-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/bhawak/.gradle/caches/transforms-3/eb7649864122240463650437ba5936b2/transformed/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:17:13-37
+477            <meta-data
+477-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/bhawak/.gradle/caches/transforms-3/eb7649864122240463650437ba5936b2/transformed/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:18:13-20:85
+478                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+478-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/bhawak/.gradle/caches/transforms-3/eb7649864122240463650437ba5936b2/transformed/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:19:17-115
+479                android:value="com.google.firebase.components.ComponentRegistrar" />
+479-->[com.google.firebase:firebase-crashlytics:18.2.1] /Users/bhawak/.gradle/caches/transforms-3/eb7649864122240463650437ba5936b2/transformed/jetified-firebase-crashlytics-18.2.1/AndroidManifest.xml:20:17-82
+480            <meta-data
+480-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/0e405110836ec3d9caddfa530f33e582/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+481                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+481-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/0e405110836ec3d9caddfa530f33e582/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+482                android:value="com.google.firebase.components.ComponentRegistrar" />
+482-->[com.google.android.gms:play-services-measurement-api:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/0e405110836ec3d9caddfa530f33e582/transformed/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+483            <meta-data
+483-->[com.google.firebase:firebase-installations:17.0.0] /Users/bhawak/.gradle/caches/transforms-3/f418545f21a83a65d0b439886ffb52a5/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+484                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+484-->[com.google.firebase:firebase-installations:17.0.0] /Users/bhawak/.gradle/caches/transforms-3/f418545f21a83a65d0b439886ffb52a5/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+485                android:value="com.google.firebase.components.ComponentRegistrar" />
+485-->[com.google.firebase:firebase-installations:17.0.0] /Users/bhawak/.gradle/caches/transforms-3/f418545f21a83a65d0b439886ffb52a5/transformed/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+486        </service>
+487
+488        <provider
+488-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/bhawak/.gradle/caches/transforms-3/86622d1482917a3b5a561bc4e9f6172a/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:18:9-22:39
+489            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+489-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/bhawak/.gradle/caches/transforms-3/86622d1482917a3b5a561bc4e9f6172a/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:19:13-93
+490            android:authorities="org.odk.collect.android.mapboxtelemetryinitprovider"
+490-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/bhawak/.gradle/caches/transforms-3/86622d1482917a3b5a561bc4e9f6172a/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:20:13-79
+491            android:exported="false"
+491-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/bhawak/.gradle/caches/transforms-3/86622d1482917a3b5a561bc4e9f6172a/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:21:13-37
+492            android:initOrder="100" />
+492-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/bhawak/.gradle/caches/transforms-3/86622d1482917a3b5a561bc4e9f6172a/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:22:13-36
+493
+494        <service
+494-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/bhawak/.gradle/caches/transforms-3/86622d1482917a3b5a561bc4e9f6172a/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:24:9-26:72
+495            android:name="com.mapbox.android.telemetry.errors.ErrorReporterJobIntentService"
+495-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/bhawak/.gradle/caches/transforms-3/86622d1482917a3b5a561bc4e9f6172a/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:25:13-93
+496            android:permission="android.permission.BIND_JOB_SERVICE" />
+496-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:5.0.1] /Users/bhawak/.gradle/caches/transforms-3/86622d1482917a3b5a561bc4e9f6172a/transformed/jetified-mapbox-android-telemetry-5.0.1/AndroidManifest.xml:26:13-69
+497
+498        <activity
+498-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:47:9-53:63
+499            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+499-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:48:13-74
+500            android:clearTaskOnLaunch="true"
+500-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:49:13-45
+501            android:screenOrientation="sensorLandscape"
+501-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:50:13-56
+502            android:stateNotNeeded="true"
+502-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:51:13-42
+503            android:theme="@style/zxing_CaptureTheme"
+503-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:52:13-54
+504            android:windowSoftInputMode="stateAlwaysHidden" />
+504-->[com.journeyapps:zxing-android-embedded:3.6.0] /Users/bhawak/.gradle/caches/transforms-3/5993abfaeba3cbd19143dfc9a8a2bdc5/transformed/jetified-zxing-android-embedded-3.6.0/AndroidManifest.xml:53:13-60
+505
+506        <provider
+506-->[net.danlew:android.joda:2.10.9.1] /Users/bhawak/.gradle/caches/transforms-3/e80971efafdb3b311a0388617b8c475e/transformed/jetified-android.joda-2.10.9.1/AndroidManifest.xml:9:9-17:20
+507            android:name="androidx.startup.InitializationProvider"
+507-->[net.danlew:android.joda:2.10.9.1] /Users/bhawak/.gradle/caches/transforms-3/e80971efafdb3b311a0388617b8c475e/transformed/jetified-android.joda-2.10.9.1/AndroidManifest.xml:10:13-67
+508            android:authorities="org.odk.collect.android.androidx-startup"
+508-->[net.danlew:android.joda:2.10.9.1] /Users/bhawak/.gradle/caches/transforms-3/e80971efafdb3b311a0388617b8c475e/transformed/jetified-android.joda-2.10.9.1/AndroidManifest.xml:11:13-68
+509            android:exported="false" >
+509-->[net.danlew:android.joda:2.10.9.1] /Users/bhawak/.gradle/caches/transforms-3/e80971efafdb3b311a0388617b8c475e/transformed/jetified-android.joda-2.10.9.1/AndroidManifest.xml:12:13-37
+510            <meta-data
+510-->[net.danlew:android.joda:2.10.9.1] /Users/bhawak/.gradle/caches/transforms-3/e80971efafdb3b311a0388617b8c475e/transformed/jetified-android.joda-2.10.9.1/AndroidManifest.xml:14:13-16:52
+511                android:name="net.danlew.android.joda.JodaTimeInitializer"
+511-->[net.danlew:android.joda:2.10.9.1] /Users/bhawak/.gradle/caches/transforms-3/e80971efafdb3b311a0388617b8c475e/transformed/jetified-android.joda-2.10.9.1/AndroidManifest.xml:15:17-75
+512                android:value="androidx.startup" />
+512-->[net.danlew:android.joda:2.10.9.1] /Users/bhawak/.gradle/caches/transforms-3/e80971efafdb3b311a0388617b8c475e/transformed/jetified-android.joda-2.10.9.1/AndroidManifest.xml:16:17-49
+513        </provider>
+514
+515        <activity
+515-->[com.google.android.gms:play-services-base:17.5.0] /Users/bhawak/.gradle/caches/transforms-3/19751ff4c3fed8d6c3556fcb1de48365/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+516            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+516-->[com.google.android.gms:play-services-base:17.5.0] /Users/bhawak/.gradle/caches/transforms-3/19751ff4c3fed8d6c3556fcb1de48365/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+517            android:exported="false"
+517-->[com.google.android.gms:play-services-base:17.5.0] /Users/bhawak/.gradle/caches/transforms-3/19751ff4c3fed8d6c3556fcb1de48365/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+518            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+518-->[com.google.android.gms:play-services-base:17.5.0] /Users/bhawak/.gradle/caches/transforms-3/19751ff4c3fed8d6c3556fcb1de48365/transformed/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+519
+520        <receiver
+520-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+521            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+521-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+522            android:enabled="true"
+522-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+523            android:exported="false" >
+523-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+524        </receiver>
+525
+526        <service
+526-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+527            android:name="com.google.android.gms.measurement.AppMeasurementService"
+527-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+528            android:enabled="true"
+528-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+529            android:exported="false" />
+529-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+530        <service
+530-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+531            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+531-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+532            android:enabled="true"
+532-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+533            android:exported="false"
+533-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+534            android:permission="android.permission.BIND_JOB_SERVICE" />
+534-->[com.google.android.gms:play-services-measurement:19.0.0] /Users/bhawak/.gradle/caches/transforms-3/9aa607b62a717a78c6187cc769a68528/transformed/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+535
+536        <provider
+536-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-3/cd3526afdbed1fd0f6d1ef32cbc7ff4c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+537            android:name="com.google.firebase.provider.FirebaseInitProvider"
+537-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-3/cd3526afdbed1fd0f6d1ef32cbc7ff4c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+538            android:authorities="org.odk.collect.android.firebaseinitprovider"
+538-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-3/cd3526afdbed1fd0f6d1ef32cbc7ff4c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+539            android:directBootAware="true"
+539-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-3/cd3526afdbed1fd0f6d1ef32cbc7ff4c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+540            android:exported="false"
+540-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-3/cd3526afdbed1fd0f6d1ef32cbc7ff4c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+541            android:initOrder="100" />
+541-->[com.google.firebase:firebase-common:20.0.0] /Users/bhawak/.gradle/caches/transforms-3/cd3526afdbed1fd0f6d1ef32cbc7ff4c/transformed/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+542
+543        <service
+543-->[androidx.room:room-runtime:2.2.5] /Users/bhawak/.gradle/caches/transforms-3/6fa1b08e3443b8b4811da3fb8025ec47/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+544            android:name="androidx.room.MultiInstanceInvalidationService"
+544-->[androidx.room:room-runtime:2.2.5] /Users/bhawak/.gradle/caches/transforms-3/6fa1b08e3443b8b4811da3fb8025ec47/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+545            android:directBootAware="true"
+545-->[androidx.room:room-runtime:2.2.5] /Users/bhawak/.gradle/caches/transforms-3/6fa1b08e3443b8b4811da3fb8025ec47/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+546            android:exported="false" />
+546-->[androidx.room:room-runtime:2.2.5] /Users/bhawak/.gradle/caches/transforms-3/6fa1b08e3443b8b4811da3fb8025ec47/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+547        <service
+547-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/52c073034f6c0edbe86ed807eb02e4a8/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+548            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+548-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/52c073034f6c0edbe86ed807eb02e4a8/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+549            android:exported="false" >
+549-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/52c073034f6c0edbe86ed807eb02e4a8/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+550            <meta-data
+550-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/52c073034f6c0edbe86ed807eb02e4a8/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+551                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+551-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/52c073034f6c0edbe86ed807eb02e4a8/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+552                android:value="cct" />
+552-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/52c073034f6c0edbe86ed807eb02e4a8/transformed/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+553        </service>
+554        <service
+554-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/5ef88ebd1369d27bcb65128aaadd9107/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+555            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+555-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/5ef88ebd1369d27bcb65128aaadd9107/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+556            android:exported="false"
+556-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/5ef88ebd1369d27bcb65128aaadd9107/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+557            android:permission="android.permission.BIND_JOB_SERVICE" >
+557-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/5ef88ebd1369d27bcb65128aaadd9107/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+558        </service>
+559
+560        <receiver
+560-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/5ef88ebd1369d27bcb65128aaadd9107/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+561            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+561-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/5ef88ebd1369d27bcb65128aaadd9107/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+562            android:exported="false" />
+562-->[com.google.android.datatransport:transport-runtime:3.0.0] /Users/bhawak/.gradle/caches/transforms-3/5ef88ebd1369d27bcb65128aaadd9107/transformed/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+563
+564        <provider
+564-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/bhawak/.gradle/caches/transforms-3/8a2fdf5468be64f625141113e6399b79/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+565            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+565-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/bhawak/.gradle/caches/transforms-3/8a2fdf5468be64f625141113e6399b79/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+566            android:authorities="org.odk.collect.android.lifecycle-process"
+566-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/bhawak/.gradle/caches/transforms-3/8a2fdf5468be64f625141113e6399b79/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+567            android:exported="false"
+567-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/bhawak/.gradle/caches/transforms-3/8a2fdf5468be64f625141113e6399b79/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+568            android:multiprocess="true" />
+568-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/bhawak/.gradle/caches/transforms-3/8a2fdf5468be64f625141113e6399b79/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+569
+570        <activity
+570-->[androidx.test:core:1.3.0] /Users/bhawak/.gradle/caches/transforms-3/d7581e8fe11a1146de17450019acd327/transformed/jetified-core-1.3.0/AndroidManifest.xml:27:9-33:20
+571            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+571-->[androidx.test:core:1.3.0] /Users/bhawak/.gradle/caches/transforms-3/d7581e8fe11a1146de17450019acd327/transformed/jetified-core-1.3.0/AndroidManifest.xml:28:13-99
+572            android:theme="@android:style/Theme" >
+572-->[androidx.test:core:1.3.0] /Users/bhawak/.gradle/caches/transforms-3/d7581e8fe11a1146de17450019acd327/transformed/jetified-core-1.3.0/AndroidManifest.xml:29:13-49
+573            <intent-filter>
+573-->[androidx.fragment:fragment-testing:1.3.6] /Users/bhawak/.gradle/caches/transforms-3/8deb754e072de0c5f2e35eb84eb7e728/transformed/jetified-fragment-testing-1.3.6/AndroidManifest.xml:34:13-36:29
+574                <action android:name="android.intent.action.MAIN" />
+574-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:260:17-69
+574-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:260:25-66
+575            </intent-filter>
+576        </activity>
+577        <activity
+577-->[androidx.test:core:1.3.0] /Users/bhawak/.gradle/caches/transforms-3/d7581e8fe11a1146de17450019acd327/transformed/jetified-core-1.3.0/AndroidManifest.xml:34:9-40:20
+578            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+578-->[androidx.test:core:1.3.0] /Users/bhawak/.gradle/caches/transforms-3/d7581e8fe11a1146de17450019acd327/transformed/jetified-core-1.3.0/AndroidManifest.xml:35:13-95
+579            android:theme="@android:style/Theme" >
+579-->[androidx.test:core:1.3.0] /Users/bhawak/.gradle/caches/transforms-3/d7581e8fe11a1146de17450019acd327/transformed/jetified-core-1.3.0/AndroidManifest.xml:36:13-49
+580            <intent-filter>
+580-->[androidx.fragment:fragment-testing:1.3.6] /Users/bhawak/.gradle/caches/transforms-3/8deb754e072de0c5f2e35eb84eb7e728/transformed/jetified-fragment-testing-1.3.6/AndroidManifest.xml:34:13-36:29
+581                <action android:name="android.intent.action.MAIN" />
+581-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:260:17-69
+581-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:260:25-66
+582            </intent-filter>
+583        </activity>
+584        <activity
+584-->[androidx.test:core:1.3.0] /Users/bhawak/.gradle/caches/transforms-3/d7581e8fe11a1146de17450019acd327/transformed/jetified-core-1.3.0/AndroidManifest.xml:41:9-47:20
+585            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+585-->[androidx.test:core:1.3.0] /Users/bhawak/.gradle/caches/transforms-3/d7581e8fe11a1146de17450019acd327/transformed/jetified-core-1.3.0/AndroidManifest.xml:42:13-103
+586            android:theme="@android:style/Theme.Dialog" >
+586-->[androidx.test:core:1.3.0] /Users/bhawak/.gradle/caches/transforms-3/d7581e8fe11a1146de17450019acd327/transformed/jetified-core-1.3.0/AndroidManifest.xml:43:13-56
+587            <intent-filter>
+587-->[androidx.fragment:fragment-testing:1.3.6] /Users/bhawak/.gradle/caches/transforms-3/8deb754e072de0c5f2e35eb84eb7e728/transformed/jetified-fragment-testing-1.3.6/AndroidManifest.xml:34:13-36:29
+588                <action android:name="android.intent.action.MAIN" />
+588-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:260:17-69
+588-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:260:25-66
+589            </intent-filter>
+590        </activity>
+591
+592        <provider
+592-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:29:9-37:20
+593            android:name="leakcanary.internal.LeakCanaryFileProvider"
+593-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:30:13-70
+594            android:authorities="com.squareup.leakcanary.fileprovider.org.odk.collect.android"
+594-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:31:13-88
+595            android:exported="false"
+595-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:32:13-37
+596            android:grantUriPermissions="true" >
+596-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:33:13-47
+597            <meta-data
+597-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:34:13-36:66
+598                android:name="android.support.FILE_PROVIDER_PATHS"
+598-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:35:17-67
+599                android:resource="@xml/leak_canary_file_paths" />
+599-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:36:17-63
+600        </provider>
+601
+602        <activity
+602-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:39:9-44:66
+603            android:name="leakcanary.internal.activity.LeakActivity"
+603-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:40:13-69
+604            android:icon="@mipmap/leak_canary_icon"
+604-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:41:13-52
+605            android:label="@string/leak_canary_display_activity_label"
+605-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:42:13-71
+606            android:taskAffinity="com.squareup.leakcanary.org.odk.collect.android"
+606-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:43:13-76
+607            android:theme="@style/leak_canary_LeakCanary.Base" />
+607-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:44:13-63
+608
+609        <activity-alias
+609-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:46:9-63:26
+610            android:name="leakcanary.internal.activity.LeakLauncherActivity"
+610-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:47:13-77
+611            android:banner="@drawable/leak_canary_tv_icon"
+611-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:48:13-59
+612            android:enabled="@bool/leak_canary_add_launcher_icon"
+612-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:49:13-66
+613            android:exported="true"
+613-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:50:13-36
+614            android:icon="@mipmap/leak_canary_icon"
+614-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:51:13-52
+615            android:label="@string/leak_canary_display_activity_label"
+615-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:52:13-71
+616            android:targetActivity="leakcanary.internal.activity.LeakActivity"
+616-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:53:13-79
+617            android:taskAffinity="com.squareup.leakcanary.org.odk.collect.android"
+617-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:54:13-76
+618            android:theme="@style/leak_canary_LeakCanary.Base" >
+618-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:55:13-63
+619            <intent-filter>
+619-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:56:13-62:29
+620                <action android:name="android.intent.action.MAIN" />
+620-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:260:17-69
+620-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:260:25-66
+621
+622                <category android:name="android.intent.category.LAUNCHER" />
+622-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:263:17-77
+622-->/Users/bhawak/Documents/collect/collect_app/src/main/AndroidManifest.xml:263:27-74
+623                <!-- Android TV launcher intent -->
+624                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+624-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:61:17-86
+624-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:61:27-83
+625            </intent-filter>
+626        </activity-alias>
+627
+628        <activity
+628-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:65:9-71:68
+629            android:name="leakcanary.internal.RequestStoragePermissionActivity"
+629-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:66:13-80
+630            android:excludeFromRecents="true"
+630-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:67:13-46
+631            android:icon="@mipmap/leak_canary_icon"
+631-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:68:13-52
+632            android:label="@string/leak_canary_storage_permission_activity_label"
+632-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:69:13-82
+633            android:taskAffinity="com.squareup.leakcanary.org.odk.collect.android"
+633-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:70:13-76
+634            android:theme="@style/leak_canary_Theme.Transparent" />
+634-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:71:13-65
+635
+636        <receiver android:name="leakcanary.internal.NotificationReceiver" />
+636-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:73:9-77
+636-->[com.squareup.leakcanary:leakcanary-android-core:2.7] /Users/bhawak/.gradle/caches/transforms-3/4afb2107136f0611ac165cf84781c8aa/transformed/jetified-leakcanary-android-core-2.7/AndroidManifest.xml:73:19-74
+637
+638        <provider
+638-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/ff99d37296c3180503b3e479570a071f/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:8:9-12:40
+639            android:name="leakcanary.internal.AppWatcherInstaller$MainProcess"
+639-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/ff99d37296c3180503b3e479570a071f/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:9:13-79
+640            android:authorities="org.odk.collect.android.leakcanary-installer"
+640-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/ff99d37296c3180503b3e479570a071f/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:10:13-72
+641            android:enabled="@bool/leak_canary_watcher_auto_install"
+641-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/ff99d37296c3180503b3e479570a071f/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:11:13-69
+642            android:exported="false" />
+642-->[com.squareup.leakcanary:leakcanary-object-watcher-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/ff99d37296c3180503b3e479570a071f/transformed/jetified-leakcanary-object-watcher-android-2.7/AndroidManifest.xml:12:13-37
+643        <provider
+643-->[com.squareup.leakcanary:plumber-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/1dae01430421b6e253c84c6722342178/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:8:9-12:40
+644            android:name="leakcanary.internal.PlumberInstaller"
+644-->[com.squareup.leakcanary:plumber-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/1dae01430421b6e253c84c6722342178/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:9:13-64
+645            android:authorities="org.odk.collect.android.plumber-installer"
+645-->[com.squareup.leakcanary:plumber-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/1dae01430421b6e253c84c6722342178/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:10:13-69
+646            android:enabled="@bool/leak_canary_plumber_auto_install"
+646-->[com.squareup.leakcanary:plumber-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/1dae01430421b6e253c84c6722342178/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:11:13-69
+647            android:exported="false" />
+647-->[com.squareup.leakcanary:plumber-android:2.7] /Users/bhawak/.gradle/caches/transforms-3/1dae01430421b6e253c84c6722342178/transformed/jetified-plumber-android-2.7/AndroidManifest.xml:12:13-37
+648    </application>
+649
+650</manifest>

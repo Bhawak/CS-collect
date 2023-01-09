@@ -1,0 +1,141 @@
+-keep class j$.util.Collection$-EL {
+    j$.util.stream.Stream stream(java.util.Collection);
+}
+-keep class j$.util.Map { *; }
+-keep class j$.util.function.Predicate$-CC {
+    j$.util.function.Predicate $default$or(j$.util.function.Predicate, j$.util.function.Predicate);
+    j$.util.function.Predicate $default$and(j$.util.function.Predicate, j$.util.function.Predicate);
+    j$.util.function.Predicate $default$negate(j$.util.function.Predicate);
+}
+-keep class j$.util.Map$-EL {
+    java.lang.Object getOrDefault(java.util.Map, java.lang.Object, java.lang.Object);
+}
+-keep class j$.util.function.ToLongFunction { *; }
+-keep class j$.util.function.Supplier { *; }
+-keep class j$.util.function.BiConsumer { *; }
+-keep class j$.util.Set$-CC {
+    j$.util.Spliterator $default$spliterator(java.util.Set);
+}
+-keep class j$.util.DesugarCollections {
+    java.util.Map synchronizedMap(java.util.Map);
+}
+-keep class j$.util.stream.Stream {
+    j$.util.Optional max(java.util.Comparator);
+    boolean noneMatch(j$.util.function.Predicate);
+    java.lang.Object[] toArray(j$.util.function.IntFunction);
+    void forEach(j$.util.function.Consumer);
+    long count();
+    boolean anyMatch(j$.util.function.Predicate);
+    j$.util.stream.Stream map(j$.util.function.Function);
+    j$.util.stream.Stream filter(j$.util.function.Predicate);
+    java.lang.Object collect(j$.util.stream.Collector);
+    j$.util.Optional findAny();
+}
+-keep class j$.util.function.ToIntFunction
+-keep class j$.util.stream.LongStream {
+    boolean anyMatch(j$.util.function.LongPredicate);
+}
+-keep class j$.util.Map$-CC {
+    boolean $default$replace(java.util.Map, java.lang.Object, java.lang.Object, java.lang.Object);
+    void $default$forEach(java.util.Map, j$.util.function.BiConsumer);
+    java.lang.Object $default$computeIfAbsent(java.util.Map, java.lang.Object, j$.util.function.Function);
+    java.lang.Object $default$putIfAbsent(java.util.Map, java.lang.Object, java.lang.Object);
+    java.lang.Object $default$getOrDefault(java.util.Map, java.lang.Object, java.lang.Object);
+    java.lang.Object $default$replace(java.util.Map, java.lang.Object, java.lang.Object);
+    java.lang.Object $default$computeIfPresent(java.util.Map, java.lang.Object, j$.util.function.BiFunction);
+    java.lang.Object $default$compute(java.util.Map, java.lang.Object, j$.util.function.BiFunction);
+    boolean $default$remove(java.util.Map, java.lang.Object, java.lang.Object);
+    java.lang.Object $default$merge(java.util.Map, java.lang.Object, java.lang.Object, j$.util.function.BiFunction);
+    void $default$replaceAll(java.util.Map, j$.util.function.BiFunction);
+}
+-keep class j$.util.stream.Collectors {
+    j$.util.stream.Collector toSet();
+    j$.util.stream.Collector toList();
+}
+-keep class j$.util.Optional {
+    java.lang.Object get();
+    java.lang.Object orElse(java.lang.Object);
+    j$.util.Optional map(j$.util.function.Function);
+}
+-keep class j$.util.function.BiFunction
+-keep class j$.util.function.LongPredicate$-CC {
+    j$.util.function.LongPredicate $default$and(j$.util.function.LongPredicate, j$.util.function.LongPredicate);
+    j$.util.function.LongPredicate $default$negate(j$.util.function.LongPredicate);
+    j$.util.function.LongPredicate $default$or(j$.util.function.LongPredicate, j$.util.function.LongPredicate);
+}
+-keep class j$.util.Iterator$-CC {
+    void $default$forEachRemaining(java.util.Iterator, j$.util.function.Consumer);
+}
+-keep class j$.util.function.Function$-CC {
+    j$.util.function.Function $default$compose(j$.util.function.Function, j$.util.function.Function);
+    j$.util.function.Function $default$andThen(j$.util.function.Function, j$.util.function.Function);
+}
+-keep class j$.lang.Iterable { *; }
+-keep class j$.util.function.Predicate { *; }
+-keep class j$.util.Collection$-CC {
+    j$.util.stream.Stream $default$stream(java.util.Collection);
+    boolean $default$removeIf(java.util.Collection, j$.util.function.Predicate);
+    j$.util.Spliterator $default$spliterator(java.util.Collection);
+    j$.util.stream.Stream $default$parallelStream(java.util.Collection);
+}
+-keep class j$.util.Map$Entry { *; }
+-keep class j$.util.Iterator { *; }
+-keep class j$.util.function.Consumer { *; }
+-keep class j$.util.function.Consumer$-CC {
+    j$.util.function.Consumer $default$andThen(j$.util.function.Consumer, j$.util.function.Consumer);
+}
+-keep class j$.util.function.BiConsumer$-CC {
+    j$.util.function.BiConsumer $default$andThen(j$.util.function.BiConsumer, j$.util.function.BiConsumer);
+}
+-keep class j$.util.function.Function { *; }
+-keep class j$.util.Collection { *; }
+-keep class j$.util.stream.Collector
+-keep class j$.util.function.ToDoubleFunction
+-keep class j$.util.List { *; }
+-keep class j$.util.function.LongPredicate { *; }
+-keep class j$.util.Set { *; }
+-keep class j$.util.Comparator { *; }
+-keep class j$.util.Comparator$-CC {
+    java.util.Comparator $default$thenComparingLong(java.util.Comparator, j$.util.function.ToLongFunction);
+    java.util.Comparator $default$thenComparingDouble(java.util.Comparator, j$.util.function.ToDoubleFunction);
+    java.util.Comparator comparingLong(j$.util.function.ToLongFunction);
+    java.util.Comparator $default$reversed(java.util.Comparator);
+    java.util.Comparator $default$thenComparing(java.util.Comparator, j$.util.function.Function, java.util.Comparator);
+    java.util.Comparator $default$thenComparing(java.util.Comparator, j$.util.function.Function);
+    java.util.Comparator $default$thenComparingInt(java.util.Comparator, j$.util.function.ToIntFunction);
+    java.util.Comparator $default$thenComparing(java.util.Comparator, java.util.Comparator);
+}
+-keep class j$.util.DesugarTimeZone {
+    java.util.TimeZone getTimeZone(java.lang.String);
+}
+-keep class j$.util.concurrent.ConcurrentHashMap {
+    java.lang.Object put(java.lang.Object, java.lang.Object);
+    boolean remove(java.lang.Object, java.lang.Object);
+    boolean containsKey(java.lang.Object);
+    int size();
+    java.lang.Object remove(java.lang.Object);
+    java.lang.Object get(java.lang.Object);
+    void <init>(int, float, int);
+    java.lang.Object putIfAbsent(java.lang.Object, java.lang.Object);
+    void <init>();
+    void <init>(java.util.Map);
+    void <init>(int);
+}
+-keep class j$.util.List$-CC {
+    j$.util.Spliterator $default$spliterator(java.util.List);
+    void $default$sort(java.util.List, java.util.Comparator);
+    void $default$replaceAll(java.util.List, j$.util.function.UnaryOperator);
+}
+-keep class j$.util.DesugarArrays {
+    j$.util.stream.LongStream stream(long[]);
+}
+-keep class j$.util.function.UnaryOperator
+-keep class j$.util.function.IntFunction { *; }
+-keep class j$.util.Spliterator
+-keep class j$.lang.Iterable$-CC {
+    j$.util.Spliterator $default$spliterator(java.lang.Iterable);
+    void $default$forEach(java.lang.Iterable, j$.util.function.Consumer);
+}
+-keep class j$.util.concurrent.ThreadLocalRandom {
+    j$.util.concurrent.ThreadLocalRandom current();
+}

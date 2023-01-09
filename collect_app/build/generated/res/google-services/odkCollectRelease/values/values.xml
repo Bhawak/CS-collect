@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">640412404956-ag8do5nic02k70qr2k1a0mv3du8222hv.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://opendatakit-forks.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">640412404956</string>
+    <string name="google_api_key" translatable="false">AIzaSyA5tuKwVrlKEs-7iMSpdTmAy6qSH-w0lik</string>
+    <string name="google_app_id" translatable="false">1:640412404956:android:730483f389563845cb7819</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA5tuKwVrlKEs-7iMSpdTmAy6qSH-w0lik</string>
+    <string name="google_storage_bucket" translatable="false">opendatakit-forks.appspot.com</string>
+    <string name="project_id" translatable="false">opendatakit-forks</string>
+</resources>

@@ -1,0 +1,398 @@
+[
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/osm_map_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/osm_map_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/form_chooser_list_item_icon.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/form_chooser_list_item_icon.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/form_chooser_list_item_multiple_choice.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/form_chooser_list_item_multiple_choice.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/captioned_item.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/captioned_item.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/activity_web_view.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/activity_web_view.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/ex_arbitrary_file_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/ex_arbitrary_file_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/activity_capture_selfie.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/activity_capture_selfie.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/captioned_list_dialog.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/captioned_list_dialog.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/form_chooser_list_item.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/form_chooser_list_item.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/simple_spinner_dropdown_item.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/show_qrcode_fragment.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/show_qrcode_fragment.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/select_one_item.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/select_one_item.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/form_chooser_list_item_map_button.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/form_chooser_list_item_map_button.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/bottom_sheet.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/bottom_sheet.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/question_widget.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/question_widget.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/activity_custom_scanner.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/activity_custom_scanner.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/tabs_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/tabs_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/barcode_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/barcode_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/audio_controller_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/audio_controller_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/time_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/time_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/app_bar_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/app_bar_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/audio_player_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/audio_player_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/hierarchy_element.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/hierarchy_element.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/date_time_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/date_time_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/range_picker_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/range_picker_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/widget_answer_button.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/widget_answer_button.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/sort_item_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/sort_item_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/custom_date_picker_dialog.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/custom_date_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/no_buttons_item_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/no_buttons_item_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/draw_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/draw_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/instance_uploader_list.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/instance_uploader_list.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/changes_reason_dialog.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/changes_reason_dialog.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/geo_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/geo_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/main_menu.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/main_menu.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/arbitrary_file_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/arbitrary_file_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/progress_dialog.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/progress_dialog.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/trigger_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/trigger_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/current_project_menu_icon.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/current_project_menu_icon.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/rating_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/rating_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/google_drive_list.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/google_drive_list.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/bearing_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/bearing_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/audio_recording_controller_fragment.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/audio_recording_controller_fragment.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/admin_password_dialog_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/admin_password_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/activity_preferences_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/activity_preferences_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/ranking_item.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/ranking_item.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/select_list_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/select_list_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/hierarchy_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/hierarchy_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/project_list_item.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/project_list_item.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/splash_screen.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/splash_screen.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/project_icon_view.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/project_icon_view.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/range_widget_horizontal.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/range_widget_horizontal.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/audio_video_image_text_label.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/audio_video_image_text_label.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/about_item_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/about_item_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/server_auth_dialog.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/server_auth_dialog.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/form_entry.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/form_entry.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/project_settings_dialog_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/project_settings_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/geopoly_dialog.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/geopoly_dialog.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/ex_video_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/ex_video_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/select_multi_item.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/select_multi_item.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/about_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/about_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/form_entry_end.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/form_entry_end.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/help_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/help_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/form_chooser_list.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/form_chooser_list.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/activity_capture_selfie_video.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/activity_capture_selfie_video.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/qr_code_project_creator_dialog_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/qr_code_project_creator_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/geopoint_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/geopoint_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/date_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/date_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/fragment_camera2.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/fragment_camera2.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/submission_summary_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/submission_summary_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/odk_view.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/odk_view.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/geopoly_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/geopoly_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/form_download_list.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/form_download_list.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/url_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/url_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/file_manager_list.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/file_manager_list.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/ex_audio_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/ex_audio_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/select_minimal_dialog_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/select_minimal_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/instance_map_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/instance_map_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/password_dialog_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/password_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/named_view_ids.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/named_view_ids.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/mapbox_fragment_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/mapbox_fragment_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/fragment_camera2video.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/fragment_camera2video.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/first_launch_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/first_launch_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/form_chooser_list_item_text.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/form_chooser_list_item_text.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/waveform_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/waveform_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/audio_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/audio_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/identify_user_dialog.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/identify_user_dialog.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/label_widget.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/label_widget.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/manual_project_creator_dialog_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/manual_project_creator_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/reset_dialog_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/reset_dialog_layout.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/select_minimal_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/select_minimal_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/osm_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/osm_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/item_view_option.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/item_view_option.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/ex_image_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/ex_image_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/progress_bar_view.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/progress_bar_view.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/fragment_scan.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/fragment_scan.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/range_widget_vertical.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/range_widget_vertical.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/select_image_map_widget_answer.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/select_image_map_widget_answer.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/number_picker_dialog.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/number_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/bhawak/Documents/collect/collect_app/build/intermediates/incremental/mergeSelfSignedReleaseResources/stripped.dir/layout/background_audio_help_fragment_layout.xml",
+        "source": "/Users/bhawak/Documents/collect/collect_app/src/main/res/layout/background_audio_help_fragment_layout.xml"
+    }
+]

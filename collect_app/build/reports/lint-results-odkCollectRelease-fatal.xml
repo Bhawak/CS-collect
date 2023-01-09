@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="5" by="lint 4.2.2">
+
+    <issue
+        id="UnknownIssueId"
+        severity="Warning"
+        message="Unknown issue id &quot;BinaryOperationInTimber&quot;"
+        category="Lint"
+        priority="1"
+        summary="Unknown Lint Issue Id"
+        explanation="Lint will report this issue if it is configured with an issue id it does not recognize in for example Gradle files or `lint.xml` configuration files.">
+        <location
+            file="/Users/bhawak/Documents/collect/config/lint.xml"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        severity="Warning"
+        message="Unknown issue id &quot;LogNotTimber&quot;"
+        category="Lint"
+        priority="1"
+        summary="Unknown Lint Issue Id"
+        explanation="Lint will report this issue if it is configured with an issue id it does not recognize in for example Gradle files or `lint.xml` configuration files.">
+        <location
+            file="/Users/bhawak/Documents/collect/config/lint.xml"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        severity="Warning"
+        message="Unknown issue id &quot;MissingRegistered&quot;. Did you mean &apos;Registered&apos; (Class is not registered in the manifest) ?"
+        category="Lint"
+        priority="1"
+        summary="Unknown Lint Issue Id"
+        explanation="Lint will report this issue if it is configured with an issue id it does not recognize in for example Gradle files or `lint.xml` configuration files.">
+        <location
+            file="/Users/bhawak/Documents/collect/config/lint.xml"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        severity="Warning"
+        message="Unknown issue id &quot;StringFormatInTimber&quot;"
+        category="Lint"
+        priority="1"
+        summary="Unknown Lint Issue Id"
+        explanation="Lint will report this issue if it is configured with an issue id it does not recognize in for example Gradle files or `lint.xml` configuration files.">
+        <location
+            file="/Users/bhawak/Documents/collect/config/lint.xml"/>
+    </issue>
+
+    <issue
+        id="UnknownIssueId"
+        severity="Warning"
+        message="Unknown issue id &quot;TimberExceptionLogging&quot;"
+        category="Lint"
+        priority="1"
+        summary="Unknown Lint Issue Id"
+        explanation="Lint will report this issue if it is configured with an issue id it does not recognize in for example Gradle files or `lint.xml` configuration files.">
+        <location
+            file="/Users/bhawak/Documents/collect/config/lint.xml"/>
+    </issue>
+
+</issues>

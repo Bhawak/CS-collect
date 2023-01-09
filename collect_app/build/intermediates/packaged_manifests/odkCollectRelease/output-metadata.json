@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "PACKAGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "org.odk.collect.android",
+  "variantName": "odkCollectRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 4274,
+      "versionName": "v2021.2.3-126-g0f7f85a87-dirty",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

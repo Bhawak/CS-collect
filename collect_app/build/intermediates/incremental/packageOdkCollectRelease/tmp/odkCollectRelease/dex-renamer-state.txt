@@ -1,0 +1,10 @@
+#Sun Sep 19 12:35:24 NPT 2021
+path.2=classes2.dex
+path.1=classes1000.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=/Users/bhawak/Documents/collect/collect_app/build/intermediates/dex/odkCollectRelease/minifyOdkCollectReleaseWithR8/classes2.dex
+base.1=/Users/bhawak/Documents/collect/collect_app/build/intermediates/desugar_lib_dex/odkCollectRelease/classes1000.dex
+base.0=/Users/bhawak/Documents/collect/collect_app/build/intermediates/dex/odkCollectRelease/minifyOdkCollectReleaseWithR8/classes.dex

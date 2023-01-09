@@ -1,0 +1,1595 @@
+org/odk/collect/android/preferences/dialogs/ServerAuthDialogFragment.java
+ org.odk.collect.android.preferences.dialogs.ServerAuthDialogFragment
+org/odk/collect/android/formmanagement/FormDeleter.java
+ org.odk.collect.android.formmanagement.FormDeleter
+org/odk/collect/android/geo/MapboxMapFragment.java
+ org.odk.collect.android.geo.MapboxMapFragment
+ org.odk.collect.android.geo.MapboxMapFragment$MapFeature
+ org.odk.collect.android.geo.MapboxMapFragment$MarkerFeature
+ org.odk.collect.android.geo.MapboxMapFragment$MarkerFeature$ClickListener
+ org.odk.collect.android.geo.MapboxMapFragment$MarkerFeature$DragListener
+ org.odk.collect.android.geo.MapboxMapFragment$PolyFeature
+ org.odk.collect.android.geo.MapboxMapFragment$PolyFeature$LineClickListener
+ org.odk.collect.android.geo.MapboxMapFragment$PolyFeature$SymbolClickListener
+ org.odk.collect.android.geo.MapboxMapFragment$PolyFeature$SymbolDragListener
+org/odk/collect/android/instancemanagement/InstanceDeleter.java
+ org.odk.collect.android.instancemanagement.InstanceDeleter
+org/odk/collect/android/exception/JavaRosaException.java
+ org.odk.collect.android.exception.JavaRosaException
+org/odk/collect/android/formentry/saving/SaveFormProgressDialogFragment.java
+ org.odk.collect.android.formentry.saving.SaveFormProgressDialogFragment
+org/odk/collect/android/database/forms/DatabaseFormsRepository.java
+ org.odk.collect.android.database.forms.DatabaseFormsRepository
+org/odk/collect/android/configure/qr/QRCodeViewModel.java
+ org.odk.collect.android.configure.qr.QRCodeViewModel
+ org.odk.collect.android.configure.qr.QRCodeViewModel$Factory
+org/odk/collect/android/databinding/NumberPickerDialogBinding.java
+ org.odk.collect.android.databinding.NumberPickerDialogBinding
+org/odk/collect/android/databinding/BarcodeWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.BarcodeWidgetAnswerBinding
+org/odk/collect/android/application/initialization/CrashReportingTree.java
+ org.odk.collect.android.application.initialization.CrashReportingTree
+org/odk/collect/android/geo/MapboxUtils.java
+ org.odk.collect.android.geo.MapboxUtils
+org/odk/collect/android/audio/AudioButton.java
+ org.odk.collect.android.audio.AudioButton
+ org.odk.collect.android.audio.AudioButton$Listener
+org/odk/collect/android/widgets/DateWidget.java
+ org.odk.collect.android.widgets.DateWidget
+org/odk/collect/android/externaldata/ExternalAppsUtils.java
+ org.odk.collect.android.externaldata.ExternalAppsUtils
+org/odk/collect/android/externaldata/ExternalAnswerResolver.java
+ org.odk.collect.android.externaldata.ExternalAnswerResolver
+org/odk/collect/android/fragments/BarcodeWidgetScannerFragment.java
+ org.odk.collect.android.fragments.BarcodeWidgetScannerFragment
+org/odk/collect/android/activities/GeoPolyActivity.java
+ org.odk.collect.android.activities.GeoPolyActivity
+ org.odk.collect.android.activities.GeoPolyActivity$OutputMode
+org/odk/collect/android/databinding/ExAudioWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.ExAudioWidgetAnswerBinding
+org/odk/collect/android/preferences/dialogs/ResetDialogPreferenceFragmentCompat.java
+ org.odk.collect.android.preferences.dialogs.ResetDialogPreferenceFragmentCompat
+ org.odk.collect.android.preferences.dialogs.ResetDialogPreferenceFragmentCompat$1
+org/odk/collect/android/activities/CaptureSelfieActivity.java
+ org.odk.collect.android.activities.CaptureSelfieActivity
+org/odk/collect/android/databinding/SelectListWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.SelectListWidgetAnswerBinding
+org/odk/collect/android/databinding/TriggerWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.TriggerWidgetAnswerBinding
+org/odk/collect/android/listeners/FormDownloaderListener.java
+ org.odk.collect.android.listeners.FormDownloaderListener
+org/odk/collect/android/fragments/dialogs/CustomTimePickerDialog.java
+ org.odk.collect.android.fragments.dialogs.CustomTimePickerDialog
+ org.odk.collect.android.fragments.dialogs.CustomTimePickerDialog$TimeChangeListener
+org/odk/collect/android/widgets/RangeDecimalWidget.java
+ org.odk.collect.android.widgets.RangeDecimalWidget
+org/odk/collect/android/upload/InstanceUploader.java
+ org.odk.collect.android.upload.InstanceUploader
+org/odk/collect/android/widgets/utilities/ViewModelAudioPlayer.java
+ org.odk.collect.android.widgets.utilities.ViewModelAudioPlayer
+org/odk/collect/android/activities/MainMenuActivity.java
+ org.odk.collect.android.activities.MainMenuActivity
+ org.odk.collect.android.activities.MainMenuActivity$1
+ org.odk.collect.android.activities.MainMenuActivity$2
+ org.odk.collect.android.activities.MainMenuActivity$3
+ org.odk.collect.android.activities.MainMenuActivity$4
+ org.odk.collect.android.activities.MainMenuActivity$5
+ org.odk.collect.android.activities.MainMenuActivity$6
+org/odk/collect/android/widgets/AudioWidget.java
+ org.odk.collect.android.widgets.AudioWidget
+ org.odk.collect.android.widgets.AudioWidget$1
+org/odk/collect/android/adapters/IconMenuListAdapter.java
+ org.odk.collect.android.adapters.IconMenuListAdapter
+org/odk/collect/android/utilities/FlingRegister.java
+ org.odk.collect.android.utilities.FlingRegister
+org/odk/collect/android/fragments/BarCodeScannerFragment.java
+ org.odk.collect.android.fragments.BarCodeScannerFragment
+org/odk/collect/android/utilities/ScreenContext.java
+ org.odk.collect.android.utilities.ScreenContext
+org/odk/collect/android/openrosa/HttpHeadResult.java
+ org.odk.collect.android.openrosa.HttpHeadResult
+org/odk/collect/android/databinding/LabelWidgetBinding.java
+ org.odk.collect.android.databinding.LabelWidgetBinding
+org/odk/collect/android/adapters/FormListAdapter.java
+ org.odk.collect.android.adapters.FormListAdapter
+org/odk/collect/android/dao/CursorLoaderFactory.java
+ org.odk.collect.android.dao.CursorLoaderFactory
+org/odk/collect/android/utilities/LocaleHelper.java
+ org.odk.collect.android.utilities.LocaleHelper
+org/odk/collect/android/formmanagement/FormDownloader.java
+ org.odk.collect.android.formmanagement.FormDownloader
+ org.odk.collect.android.formmanagement.FormDownloader$ProgressReporter
+org/odk/collect/android/application/initialization/SettingsMigrator.java
+ org.odk.collect.android.application.initialization.SettingsMigrator
+org/odk/collect/android/utilities/AdminPasswordProvider.java
+ org.odk.collect.android.utilities.AdminPasswordProvider
+org/odk/collect/android/widgets/items/SelectMultiImageMapWidget.java
+ org.odk.collect.android.widgets.items.SelectMultiImageMapWidget
+org/odk/collect/android/databinding/ProjectSettingsDialogLayoutBinding.java
+ org.odk.collect.android.databinding.ProjectSettingsDialogLayoutBinding
+org/odk/collect/android/preferences/ServerPreferencesAdder.java
+ org.odk.collect.android.preferences.ServerPreferencesAdder
+org/odk/collect/android/activities/WebViewActivity.java
+ org.odk.collect.android.activities.WebViewActivity
+ org.odk.collect.android.activities.WebViewActivity$1
+org/odk/collect/android/logic/FileReference.java
+ org.odk.collect.android.logic.FileReference
+org/odk/collect/android/utilities/ExternalAppIntentProvider.java
+ org.odk.collect.android.utilities.ExternalAppIntentProvider
+org/odk/collect/android/utilities/FormsDirDiskFormsSynchronizer.java
+ org.odk.collect.android.utilities.FormsDirDiskFormsSynchronizer
+ org.odk.collect.android.utilities.FormsDirDiskFormsSynchronizer$IdFile
+org/odk/collect/android/widgets/interfaces/ButtonClickListener.java
+ org.odk.collect.android.widgets.interfaces.ButtonClickListener
+org/odk/collect/android/geo/GoogleMapFragment.java
+ org.odk.collect.android.geo.GoogleMapFragment
+ org.odk.collect.android.geo.GoogleMapFragment$MapFeature
+ org.odk.collect.android.geo.GoogleMapFragment$MarkerFeature
+ org.odk.collect.android.geo.GoogleMapFragment$PolyFeature
+org/odk/collect/android/utilities/StaticCachingDeviceDetailsProvider.java
+ org.odk.collect.android.utilities.StaticCachingDeviceDetailsProvider
+org/odk/collect/android/exception/MultipleFoldersFoundException.java
+ org.odk.collect.android.exception.MultipleFoldersFoundException
+org/odk/collect/android/fragments/FileManagerFragment.java
+ org.odk.collect.android.fragments.FileManagerFragment
+org/odk/collect/android/tasks/FormLoaderTask.java
+ org.odk.collect.android.tasks.FormLoaderTask
+ org.odk.collect.android.tasks.FormLoaderTask$1
+ org.odk.collect.android.tasks.FormLoaderTask$2
+ org.odk.collect.android.tasks.FormLoaderTask$FECWrapper
+org/odk/collect/android/databinding/ActivityPreferencesLayoutBinding.java
+ org.odk.collect.android.databinding.ActivityPreferencesLayoutBinding
+org/odk/collect/android/application/initialization/migration/KeyMover.java
+ org.odk.collect.android.application.initialization.migration.KeyMover
+org/odk/collect/android/databinding/HelpLayoutBinding.java
+ org.odk.collect.android.databinding.HelpLayoutBinding
+org/odk/collect/android/externaldata/ExternalDataHandler.java
+ org.odk.collect.android.externaldata.ExternalDataHandler
+org/odk/collect/android/fragments/dialogs/SelectOneMinimalDialog.java
+ org.odk.collect.android.fragments.dialogs.SelectOneMinimalDialog
+org/odk/collect/android/utilities/EncryptionUtils.java
+ org.odk.collect.android.utilities.EncryptionUtils
+ org.odk.collect.android.utilities.EncryptionUtils$EncryptedFormInformation
+org/odk/collect/android/databinding/InstanceMapLayoutBinding.java
+ org.odk.collect.android.databinding.InstanceMapLayoutBinding
+org/odk/collect/android/adapters/SelectOneListAdapter.java
+ org.odk.collect.android.adapters.SelectOneListAdapter
+ org.odk.collect.android.adapters.SelectOneListAdapter$ViewHolder
+org/odk/collect/android/fragments/MediaLoadingFragment.java
+ org.odk.collect.android.fragments.MediaLoadingFragment
+org/odk/collect/android/logic/FileReferenceFactory.java
+ org.odk.collect.android.logic.FileReferenceFactory
+org/odk/collect/android/formentry/media/ScreenContextAudioHelperFactory.java
+ org.odk.collect.android.formentry.media.ScreenContextAudioHelperFactory
+org/odk/collect/android/views/CustomWebView.java
+ org.odk.collect.android.views.CustomWebView
+org/odk/collect/android/backgroundwork/BackgroundWorkUtils.java
+ org.odk.collect.android.backgroundwork.BackgroundWorkUtils
+org/odk/collect/android/version/VersionDescriptionProvider.java
+ org.odk.collect.android.version.VersionDescriptionProvider
+org/odk/collect/android/BuildConfig.java
+ org.odk.collect.android.BuildConfig
+org/odk/collect/android/utilities/FormUtils.java
+ org.odk.collect.android.utilities.FormUtils
+org/odk/collect/android/databinding/AudioRecordingControllerFragmentBinding.java
+ org.odk.collect.android.databinding.AudioRecordingControllerFragmentBinding
+org/odk/collect/android/fragments/dialogs/CustomDatePickerDialog.java
+ org.odk.collect.android.fragments.dialogs.CustomDatePickerDialog
+ org.odk.collect.android.fragments.dialogs.CustomDatePickerDialog$DateChangeListener
+org/odk/collect/android/widgets/BaseArbitraryFileWidget.java
+ org.odk.collect.android.widgets.BaseArbitraryFileWidget
+org/odk/collect/android/exception/ExternalDataException.java
+ org.odk.collect.android.exception.ExternalDataException
+org/odk/collect/android/location/client/MapboxLocationCallback.java
+ org.odk.collect.android.location.client.MapboxLocationCallback
+org/odk/collect/android/injection/DaggerUtils.java
+ org.odk.collect.android.injection.DaggerUtils
+org/odk/collect/android/widgets/TimeWidget.java
+ org.odk.collect.android.widgets.TimeWidget
+org/odk/collect/android/configure/qr/QRCodeTabsAdapter.java
+ org.odk.collect.android.configure.qr.QRCodeTabsAdapter
+org/odk/collect/android/gdrive/sheets/SheetsApi.java
+ org.odk.collect.android.gdrive.sheets.SheetsApi
+org/odk/collect/android/storage/StorageSubdirectory.java
+ org.odk.collect.android.storage.StorageSubdirectory
+org/odk/collect/android/widgets/BarcodeWidget.java
+ org.odk.collect.android.widgets.BarcodeWidget
+ org.odk.collect.android.widgets.BarcodeWidget$1
+org/odk/collect/android/logic/PropertyManager.java
+ org.odk.collect.android.logic.PropertyManager
+org/odk/collect/android/formentry/saving/DiskFormSaver.java
+ org.odk.collect.android.formentry.saving.DiskFormSaver
+org/odk/collect/android/openrosa/okhttp/OkHttpOpenRosaServerClientProvider.java
+ org.odk.collect.android.openrosa.okhttp.OkHttpOpenRosaServerClientProvider
+ org.odk.collect.android.openrosa.okhttp.OkHttpOpenRosaServerClientProvider$OkHttpOpenRosaServerClient
+org/odk/collect/android/fragments/AppListFragment.java
+ org.odk.collect.android.fragments.AppListFragment
+ org.odk.collect.android.fragments.AppListFragment$1
+ org.odk.collect.android.fragments.AppListFragment$2
+ org.odk.collect.android.fragments.AppListFragment$3
+org/odk/collect/android/listeners/FormLoaderListener.java
+ org.odk.collect.android.listeners.FormLoaderListener
+org/odk/collect/android/databinding/SortItemLayoutBinding.java
+ org.odk.collect.android.databinding.SortItemLayoutBinding
+org/odk/collect/android/externaldata/ExternalDataManagerImpl.java
+ org.odk.collect.android.externaldata.ExternalDataManagerImpl
+org/odk/collect/android/tasks/InstanceUploaderTask.java
+ org.odk.collect.android.tasks.InstanceUploaderTask
+ org.odk.collect.android.tasks.InstanceUploaderTask$Outcome
+org/odk/collect/android/version/VersionInformation.java
+ org.odk.collect.android.version.VersionInformation
+org/odk/collect/android/formentry/questions/WidgetViewUtils.java
+ org.odk.collect.android.formentry.questions.WidgetViewUtils
+org/odk/collect/android/preferences/screens/UserSettingsAccessPreferencesFragment.java
+ org.odk.collect.android.preferences.screens.UserSettingsAccessPreferencesFragment
+org/odk/collect/android/utilities/ExternalWebPageHelper.java
+ org.odk.collect.android.utilities.ExternalWebPageHelper
+ org.odk.collect.android.utilities.ExternalWebPageHelper$1
+org/odk/collect/android/listeners/DeleteInstancesListener.java
+ org.odk.collect.android.listeners.DeleteInstancesListener
+org/odk/collect/android/database/DatabaseConstants.java
+ org.odk.collect.android.database.DatabaseConstants
+org/odk/collect/android/databinding/ChangesReasonDialogBinding.java
+ org.odk.collect.android.databinding.ChangesReasonDialogBinding
+org/odk/collect/android/metadata/InstallIDProvider.java
+ org.odk.collect.android.metadata.InstallIDProvider
+org/odk/collect/android/preferences/screens/BaseProjectPreferencesFragment.java
+ org.odk.collect.android.preferences.screens.BaseProjectPreferencesFragment
+org/odk/collect/android/databinding/ServerAuthDialogBinding.java
+ org.odk.collect.android.databinding.ServerAuthDialogBinding
+org/odk/collect/android/utilities/UiUtils.java
+ org.odk.collect.android.utilities.UiUtils
+org/odk/collect/android/application/initialization/migration/MigrationUtils.java
+ org.odk.collect.android.application.initialization.migration.MigrationUtils
+org/odk/collect/android/preferences/FormUpdateMode.java
+ org.odk.collect.android.preferences.FormUpdateMode
+org/odk/collect/android/databinding/AboutLayoutBinding.java
+ org.odk.collect.android.databinding.AboutLayoutBinding
+org/odk/collect/android/formentry/audit/AsyncTaskAuditEventWriter.java
+ org.odk.collect.android.formentry.audit.AsyncTaskAuditEventWriter
+org/odk/collect/android/application/initialization/migration/KeyExtractor.java
+ org.odk.collect.android.application.initialization.migration.KeyExtractor
+org/odk/collect/android/openrosa/HttpCredentials.java
+ org.odk.collect.android.openrosa.HttpCredentials
+org/odk/collect/android/configure/qr/CachingQRCodeGenerator.java
+ org.odk.collect.android.configure.qr.CachingQRCodeGenerator
+org/odk/collect/android/widgets/interfaces/WidgetDataReceiver.java
+ org.odk.collect.android.widgets.interfaces.WidgetDataReceiver
+org/odk/collect/android/formentry/audit/ChangesReasonPromptDialogFragment.java
+ org.odk.collect.android.formentry.audit.ChangesReasonPromptDialogFragment
+ org.odk.collect.android.formentry.audit.ChangesReasonPromptDialogFragment$1
+org/odk/collect/android/fragments/SavedFormListFragment.java
+ org.odk.collect.android.fragments.SavedFormListFragment
+org/odk/collect/android/analytics/AnalyticsUtils.java
+ org.odk.collect.android.analytics.AnalyticsUtils
+org/odk/collect/android/listeners/FormListDownloaderListener.java
+ org.odk.collect.android.listeners.FormListDownloaderListener
+org/odk/collect/android/preferences/filters/WhitespaceFilter.java
+ org.odk.collect.android.preferences.filters.WhitespaceFilter
+org/odk/collect/android/utilities/SQLiteUtils.java
+ org.odk.collect.android.utilities.SQLiteUtils
+org/odk/collect/android/gdrive/InstanceGoogleSheetsUploader.java
+ org.odk.collect.android.gdrive.InstanceGoogleSheetsUploader
+org/odk/collect/android/formmanagement/ServerFormDownloader.java
+ org.odk.collect.android.formmanagement.ServerFormDownloader
+ org.odk.collect.android.formmanagement.ServerFormDownloader$1
+ org.odk.collect.android.formmanagement.ServerFormDownloader$FileResult
+ org.odk.collect.android.formmanagement.ServerFormDownloader$FormResult
+ org.odk.collect.android.formmanagement.ServerFormDownloader$ProgressReporterAndSupplierStateListener
+org/odk/collect/android/externaldata/handler/ExternalDataHandlerBase.java
+ org.odk.collect.android.externaldata.handler.ExternalDataHandlerBase
+org/odk/collect/android/databinding/FormEntryBinding.java
+ org.odk.collect.android.databinding.FormEntryBinding
+org/odk/collect/android/widgets/utilities/RecordingStatusHandler.java
+ org.odk.collect.android.widgets.utilities.RecordingStatusHandler
+org/odk/collect/android/openrosa/HttpGetResult.java
+ org.odk.collect.android.openrosa.HttpGetResult
+org/odk/collect/android/widgets/items/SelectImageMapWidget.java
+ org.odk.collect.android.widgets.items.SelectImageMapWidget
+ org.odk.collect.android.widgets.items.SelectImageMapWidget$1
+ org.odk.collect.android.widgets.items.SelectImageMapWidget$JavaScriptInterface
+org/odk/collect/android/utilities/ArrayUtils.java
+ org.odk.collect.android.utilities.ArrayUtils
+org/odk/collect/android/widgets/TriggerWidget.java
+ org.odk.collect.android.widgets.TriggerWidget
+org/odk/collect/android/widgets/StringWidget.java
+ org.odk.collect.android.widgets.StringWidget
+ org.odk.collect.android.widgets.StringWidget$1
+org/odk/collect/android/audio/AudioRecordingControllerFragment.java
+ org.odk.collect.android.audio.AudioRecordingControllerFragment
+org/odk/collect/android/external/InstanceProvider.java
+ org.odk.collect.android.external.InstanceProvider
+org/odk/collect/android/formentry/questions/NoButtonsItem.java
+ org.odk.collect.android.formentry.questions.NoButtonsItem
+org/odk/collect/android/utilities/AndroidUserAgent.java
+ org.odk.collect.android.utilities.AndroidUserAgent
+org/odk/collect/android/listeners/DeleteFormsListener.java
+ org.odk.collect.android.listeners.DeleteFormsListener
+org/odk/collect/android/application/initialization/migration/KeyTranslator.java
+ org.odk.collect.android.application.initialization.migration.KeyTranslator
+org/odk/collect/utilities/Clock.java
+ org.odk.collect.utilities.Clock
+org/odk/collect/android/databinding/FormChooserListItemIconBinding.java
+ org.odk.collect.android.databinding.FormChooserListItemIconBinding
+org/odk/collect/android/databinding/ExImageWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.ExImageWidgetAnswerBinding
+org/odk/collect/android/widgets/items/SelectOneWidget.java
+ org.odk.collect.android.widgets.items.SelectOneWidget
+org/odk/collect/android/openrosa/HttpCredentialsInterface.java
+ org.odk.collect.android.openrosa.HttpCredentialsInterface
+org/odk/collect/android/databinding/AboutItemLayoutBinding.java
+ org.odk.collect.android.databinding.AboutItemLayoutBinding
+org/odk/collect/android/databinding/AudioVideoImageTextLabelBinding.java
+ org.odk.collect.android.databinding.AudioVideoImageTextLabelBinding
+org/odk/collect/android/formentry/backgroundlocation/BackgroundLocationHelper.java
+ org.odk.collect.android.formentry.backgroundlocation.BackgroundLocationHelper
+org/odk/collect/android/formentry/audit/AuditEventSaveTask.java
+ org.odk.collect.android.formentry.audit.AuditEventSaveTask
+org/odk/collect/android/logic/DatePickerDetails.java
+ org.odk.collect.android.logic.DatePickerDetails
+ org.odk.collect.android.logic.DatePickerDetails$DatePickerMode
+ org.odk.collect.android.logic.DatePickerDetails$DatePickerType
+org/odk/collect/android/preferences/SplashClickListener.java
+ org.odk.collect.android.preferences.SplashClickListener
+ org.odk.collect.android.preferences.SplashClickListener$1
+ org.odk.collect.android.preferences.SplashClickListener$2
+org/odk/collect/android/backgroundwork/FormUpdateAndInstanceSubmitScheduler.java
+ org.odk.collect.android.backgroundwork.FormUpdateAndInstanceSubmitScheduler
+ org.odk.collect.android.backgroundwork.FormUpdateAndInstanceSubmitScheduler$1
+org/odk/collect/android/databinding/RangePickerWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.RangePickerWidgetAnswerBinding
+org/odk/collect/android/utilities/GeoUtils.java
+ org.odk.collect.android.utilities.GeoUtils
+org/odk/collect/android/utilities/QuestionFontSizeUtils.java
+ org.odk.collect.android.utilities.QuestionFontSizeUtils
+org/odk/collect/android/preferences/screens/ExperimentalPreferencesFragment.java
+ org.odk.collect.android.preferences.screens.ExperimentalPreferencesFragment
+org/odk/collect/android/widgets/AnnotateWidget.java
+ org.odk.collect.android.widgets.AnnotateWidget
+ org.odk.collect.android.widgets.AnnotateWidget$1
+org/odk/collect/android/views/ObviousProgressBar.java
+ org.odk.collect.android.views.ObviousProgressBar
+org/odk/collect/android/fragments/dialogs/IslamicDatePickerDialog.java
+ org.odk.collect.android.fragments.dialogs.IslamicDatePickerDialog
+org/odk/collect/android/activities/AppListActivity.java
+ org.odk.collect.android.activities.AppListActivity
+ org.odk.collect.android.activities.AppListActivity$1
+ org.odk.collect.android.activities.AppListActivity$2
+ org.odk.collect.android.activities.AppListActivity$3
+org/odk/collect/android/formentry/saving/SaveAnswerFileProgressDialogFragment.java
+ org.odk.collect.android.formentry.saving.SaveAnswerFileProgressDialogFragment
+org/odk/collect/android/utilities/ActivityAvailability.java
+ org.odk.collect.android.utilities.ActivityAvailability
+org/odk/collect/android/databinding/GoogleDriveListBinding.java
+ org.odk.collect.android.databinding.GoogleDriveListBinding
+org/odk/collect/android/utilities/ReplaceCallback.java
+ org.odk.collect.android.utilities.ReplaceCallback
+ org.odk.collect.android.utilities.ReplaceCallback$Callback
+org/odk/collect/android/widgets/interfaces/Widget.java
+ org.odk.collect.android.widgets.interfaces.Widget
+org/odk/collect/android/databinding/FirstLaunchLayoutBinding.java
+ org.odk.collect.android.databinding.FirstLaunchLayoutBinding
+org/odk/collect/android/databinding/ActivityWebViewBinding.java
+ org.odk.collect.android.databinding.ActivityWebViewBinding
+org/odk/collect/android/databinding/ActivityCaptureSelfieBinding.java
+ org.odk.collect.android.databinding.ActivityCaptureSelfieBinding
+org/odk/collect/android/databinding/ShowQrcodeFragmentBinding.java
+ org.odk.collect.android.databinding.ShowQrcodeFragmentBinding
+org/odk/collect/android/widgets/items/ListWidget.java
+ org.odk.collect.android.widgets.items.ListWidget
+org/odk/collect/android/views/DecoratedBarcodeView.java
+ org.odk.collect.android.views.DecoratedBarcodeView
+org/odk/collect/android/widgets/RangePickerDecimalWidget.java
+ org.odk.collect.android.widgets.RangePickerDecimalWidget
+org/odk/collect/android/externaldata/ExternalDataManager.java
+ org.odk.collect.android.externaldata.ExternalDataManager
+org/odk/collect/android/databinding/NoButtonsItemLayoutBinding.java
+ org.odk.collect.android.databinding.NoButtonsItemLayoutBinding
+org/odk/collect/android/externaldata/ExternalDataReaderImpl.java
+ org.odk.collect.android.externaldata.ExternalDataReaderImpl
+org/odk/collect/android/geo/GoogleMapsMapBoxOfflineTileProvider.java
+ org.odk.collect.android.geo.GoogleMapsMapBoxOfflineTileProvider
+org/odk/collect/android/utilities/ViewUtils.java
+ org.odk.collect.android.utilities.ViewUtils
+org/odk/collect/android/databinding/ProjectIconViewBinding.java
+ org.odk.collect.android.databinding.ProjectIconViewBinding
+org/odk/collect/android/formentry/media/FormMediaUtils.java
+ org.odk.collect.android.formentry.media.FormMediaUtils
+org/odk/collect/android/utilities/UrlUtils.java
+ org.odk.collect.android.utilities.UrlUtils
+org/odk/collect/android/listeners/SwipeHandler.java
+ org.odk.collect.android.listeners.SwipeHandler
+ org.odk.collect.android.listeners.SwipeHandler$GestureListener
+ org.odk.collect.android.listeners.SwipeHandler$OnSwipeListener
+org/odk/collect/android/gdrive/GoogleAccountCredentialGoogleAccountPicker.java
+ org.odk.collect.android.gdrive.GoogleAccountCredentialGoogleAccountPicker
+org/odk/collect/android/audio/VolumeBar.java
+ org.odk.collect.android.audio.VolumeBar
+org/odk/collect/android/formmanagement/BlankFormListMenuDelegate.java
+ org.odk.collect.android.formmanagement.BlankFormListMenuDelegate
+ org.odk.collect.android.formmanagement.BlankFormListMenuDelegate$1
+org/odk/collect/android/formentry/RequiresFormController.java
+ org.odk.collect.android.formentry.RequiresFormController
+org/odk/collect/android/databinding/SelectMultiItemBinding.java
+ org.odk.collect.android.databinding.SelectMultiItemBinding
+org/odk/collect/android/audio/AudioFileAppender.java
+ org.odk.collect.android.audio.AudioFileAppender
+org/odk/collect/android/externaldata/ExternalSQLiteOpenHelper.java
+ org.odk.collect.android.externaldata.ExternalSQLiteOpenHelper
+org/odk/collect/android/events/RxEvent.java
+ org.odk.collect.android.events.RxEvent
+org/odk/collect/android/permissions/PermissionsChecker.java
+ org.odk.collect.android.permissions.PermissionsChecker
+org/odk/collect/android/configure/qr/ShowQRCodeFragment.java
+ org.odk.collect.android.configure.qr.ShowQRCodeFragment
+ org.odk.collect.android.configure.qr.ShowQRCodeFragment$1
+org/odk/collect/android/widgets/RangeIntegerWidget.java
+ org.odk.collect.android.widgets.RangeIntegerWidget
+org/odk/collect/android/utilities/FileProvider.java
+ org.odk.collect.android.utilities.FileProvider
+org/odk/collect/android/formentry/repeats/AddRepeatDialog.java
+ org.odk.collect.android.formentry.repeats.AddRepeatDialog
+ org.odk.collect.android.formentry.repeats.AddRepeatDialog$Listener
+org/odk/collect/android/databinding/FormDownloadListBinding.java
+ org.odk.collect.android.databinding.FormDownloadListBinding
+org/odk/collect/android/databinding/ItemViewOptionBinding.java
+ org.odk.collect.android.databinding.ItemViewOptionBinding
+org/odk/collect/android/geo/WebMapService.java
+ org.odk.collect.android.geo.WebMapService
+ org.odk.collect.android.geo.WebMapService$1
+org/odk/collect/android/utilities/ThemeUtils.java
+ org.odk.collect.android.utilities.ThemeUtils
+org/odk/collect/android/databinding/RankingItemBinding.java
+ org.odk.collect.android.databinding.RankingItemBinding
+org/odk/collect/android/tasks/SavePointTask.java
+ org.odk.collect.android.tasks.SavePointTask
+org/odk/collect/android/listeners/InstanceUploaderListener.java
+ org.odk.collect.android.listeners.InstanceUploaderListener
+org/odk/collect/android/formmanagement/matchexactly/ServerFormsSynchronizer.java
+ org.odk.collect.android.formmanagement.matchexactly.ServerFormsSynchronizer
+org/odk/collect/android/geo/GoogleMapConfigurator.java
+ org.odk.collect.android.geo.GoogleMapConfigurator
+ org.odk.collect.android.geo.GoogleMapConfigurator$GoogleMapTypeOption
+org/odk/collect/android/databinding/FragmentCamera2videoBinding.java
+ org.odk.collect.android.databinding.FragmentCamera2videoBinding
+org/odk/collect/android/openrosa/CaseInsensitiveEmptyHeaders.java
+ org.odk.collect.android.openrosa.CaseInsensitiveEmptyHeaders
+org/odk/collect/android/activities/viewmodels/FormMapViewModel.java
+ org.odk.collect.android.activities.viewmodels.FormMapViewModel
+ org.odk.collect.android.activities.viewmodels.FormMapViewModel$ClickAction
+ org.odk.collect.android.activities.viewmodels.FormMapViewModel$MappableFormInstance
+org/odk/collect/android/backgroundwork/SyncFormsTaskSpec.java
+ org.odk.collect.android.backgroundwork.SyncFormsTaskSpec
+ org.odk.collect.android.backgroundwork.SyncFormsTaskSpec$Adapter
+org/odk/collect/android/dao/helpers/InstancesDaoHelper.java
+ org.odk.collect.android.dao.helpers.InstancesDaoHelper
+org/odk/collect/android/activities/InstanceListActivity.java
+ org.odk.collect.android.activities.InstanceListActivity
+org/odk/collect/android/databinding/CaptionedItemBinding.java
+ org.odk.collect.android.databinding.CaptionedItemBinding
+org/odk/collect/android/databinding/QrCodeProjectCreatorDialogLayoutBinding.java
+ org.odk.collect.android.databinding.QrCodeProjectCreatorDialogLayoutBinding
+org/odk/collect/android/utilities/QuestionMediaManager.java
+ org.odk.collect.android.utilities.QuestionMediaManager
+org/odk/collect/android/formentry/ODKView.java
+ org.odk.collect.android.formentry.ODKView
+ org.odk.collect.android.formentry.ODKView$1
+org/odk/collect/android/databinding/WaveformLayoutBinding.java
+ org.odk.collect.android.databinding.WaveformLayoutBinding
+org/odk/collect/android/utilities/FormEntryPromptUtils.java
+ org.odk.collect.android.utilities.FormEntryPromptUtils
+org/odk/collect/android/databinding/HierarchyLayoutBinding.java
+ org.odk.collect.android.databinding.HierarchyLayoutBinding
+org/odk/collect/android/application/initialization/migration/Migration.java
+ org.odk.collect.android.application.initialization.migration.Migration
+org/odk/collect/android/openrosa/OpenRosaResponseParser.java
+ org.odk.collect.android.openrosa.OpenRosaResponseParser
+org/odk/collect/android/databinding/FileManagerListBinding.java
+ org.odk.collect.android.databinding.FileManagerListBinding
+org/odk/collect/android/adapters/DeleteFormsTabsAdapter.java
+ org.odk.collect.android.adapters.DeleteFormsTabsAdapter
+org/odk/collect/android/openrosa/OpenRosaServerClientProvider.java
+ org.odk.collect.android.openrosa.OpenRosaServerClientProvider
+org/odk/collect/android/external/FormsProvider.java
+ org.odk.collect.android.external.FormsProvider
+org/odk/collect/android/notifications/Notifier.java
+ org.odk.collect.android.notifications.Notifier
+org/odk/collect/android/widgets/utilities/WaitingForDataRegistry.java
+ org.odk.collect.android.widgets.utilities.WaitingForDataRegistry
+org/odk/collect/android/widgets/utilities/StringWidgetUtils.java
+ org.odk.collect.android.widgets.utilities.StringWidgetUtils
+ org.odk.collect.android.widgets.utilities.StringWidgetUtils$1
+org/odk/collect/android/databinding/BottomSheetBinding.java
+ org.odk.collect.android.databinding.BottomSheetBinding
+org/odk/collect/android/fragments/dialogs/SelectMinimalDialog.java
+ org.odk.collect.android.fragments.dialogs.SelectMinimalDialog
+ org.odk.collect.android.fragments.dialogs.SelectMinimalDialog$1
+ org.odk.collect.android.fragments.dialogs.SelectMinimalDialog$SelectMinimalDialogListener
+org/odk/collect/android/audio/AudioRecordingErrorDialogFragment.java
+ org.odk.collect.android.audio.AudioRecordingErrorDialogFragment
+org/odk/collect/android/analytics/AnalyticsEvents.java
+ org.odk.collect.android.analytics.AnalyticsEvents
+org/odk/collect/android/listeners/WidgetValueChangedListener.java
+ org.odk.collect.android.listeners.WidgetValueChangedListener
+org/odk/collect/android/adapters/SelectMultipleListAdapter.java
+ org.odk.collect.android.adapters.SelectMultipleListAdapter
+ org.odk.collect.android.adapters.SelectMultipleListAdapter$ViewHolder
+org/odk/collect/android/listeners/PermissionListener.java
+ org.odk.collect.android.listeners.PermissionListener
+org/odk/collect/android/location/client/MaxAccuracyWithinTimeoutLocationClientWrapper.java
+ org.odk.collect.android.location.client.MaxAccuracyWithinTimeoutLocationClientWrapper
+org/odk/collect/android/geo/TileHttpServer.java
+ org.odk.collect.android.geo.TileHttpServer
+ org.odk.collect.android.geo.TileHttpServer$Response
+ org.odk.collect.android.geo.TileHttpServer$ResponseThread
+ org.odk.collect.android.geo.TileHttpServer$ServerThread
+org/odk/collect/android/preferences/screens/BaseAdminPreferencesFragment.java
+ org.odk.collect.android.preferences.screens.BaseAdminPreferencesFragment
+org/odk/collect/android/fragments/dialogs/MyanmarDatePickerDialog.java
+ org.odk.collect.android.fragments.dialogs.MyanmarDatePickerDialog
+org/odk/collect/android/application/initialization/migration/ValueTranslator.java
+ org.odk.collect.android.application.initialization.migration.ValueTranslator
+org/odk/collect/android/adapters/FormDownloadListAdapter.java
+ org.odk.collect.android.adapters.FormDownloadListAdapter
+ org.odk.collect.android.adapters.FormDownloadListAdapter$1
+ org.odk.collect.android.adapters.FormDownloadListAdapter$ViewHolder
+org/odk/collect/android/databinding/FormChooserListItemMapButtonBinding.java
+ org.odk.collect.android.databinding.FormChooserListItemMapButtonBinding
+org/odk/collect/android/gdrive/sheets/DriveHelper.java
+ org.odk.collect.android.gdrive.sheets.DriveHelper
+org/odk/collect/android/utilities/SnackbarUtils.java
+ org.odk.collect.android.utilities.SnackbarUtils
+org/odk/collect/android/widgets/viewmodels/DateTimeViewModel.java
+ org.odk.collect.android.widgets.viewmodels.DateTimeViewModel
+org/odk/collect/android/utilities/CompressionUtils.java
+ org.odk.collect.android.utilities.CompressionUtils
+org/odk/collect/android/preferences/PrefUtils.java
+ org.odk.collect.android.preferences.PrefUtils
+org/odk/collect/android/databinding/AppBarLayoutBinding.java
+ org.odk.collect.android.databinding.AppBarLayoutBinding
+org/odk/collect/android/widgets/items/ItemsWidget.java
+ org.odk.collect.android.widgets.items.ItemsWidget
+org/odk/collect/android/utilities/ImageConverter.java
+ org.odk.collect.android.utilities.ImageConverter
+org/odk/collect/android/activities/FormHierarchyActivity.java
+ org.odk.collect.android.activities.FormHierarchyActivity
+ org.odk.collect.android.activities.FormHierarchyActivity$1
+ org.odk.collect.android.activities.FormHierarchyActivity$2
+org/odk/collect/android/widgets/QuestionWidget.java
+ org.odk.collect.android.widgets.QuestionWidget
+org/odk/collect/android/widgets/BearingWidget.java
+ org.odk.collect.android.widgets.BearingWidget
+org/odk/collect/android/formentry/media/AudioHelperFactory.java
+ org.odk.collect.android.formentry.media.AudioHelperFactory
+org/odk/collect/android/activities/InstanceUploaderActivity.java
+ org.odk.collect.android.activities.InstanceUploaderActivity
+ org.odk.collect.android.activities.InstanceUploaderActivity$1
+org/odk/collect/android/geo/MapProvider.java
+ org.odk.collect.android.geo.MapProvider
+ org.odk.collect.android.geo.MapProvider$1
+ org.odk.collect.android.geo.MapProvider$SourceOption
+org/odk/collect/android/formentry/repeats/DeleteRepeatDialogFragment.java
+ org.odk.collect.android.formentry.repeats.DeleteRepeatDialogFragment
+ org.odk.collect.android.formentry.repeats.DeleteRepeatDialogFragment$DeleteRepeatDialogCallback
+org/odk/collect/android/configure/SettingsChangeHandler.java
+ org.odk.collect.android.configure.SettingsChangeHandler
+org/odk/collect/android/databinding/DateWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.DateWidgetAnswerBinding
+org/odk/collect/android/exception/BadUrlException.java
+ org.odk.collect.android.exception.BadUrlException
+org/odk/collect/android/listeners/SelectItemClickListener.java
+ org.odk.collect.android.listeners.SelectItemClickListener
+org/odk/collect/android/databinding/ProjectListItemBinding.java
+ org.odk.collect.android.databinding.ProjectListItemBinding
+org/odk/collect/android/notifications/NotificationManagerNotifier.java
+ org.odk.collect.android.notifications.NotificationManagerNotifier
+org/odk/collect/android/tasks/ProgressNotifier.java
+ org.odk.collect.android.tasks.ProgressNotifier
+org/odk/collect/android/external/InstancesContract.java
+ org.odk.collect.android.external.InstancesContract
+org/odk/collect/android/activities/FormMapActivity.java
+ org.odk.collect.android.activities.FormMapActivity
+ org.odk.collect.android.activities.FormMapActivity$1
+ org.odk.collect.android.activities.FormMapActivity$2
+ org.odk.collect.android.activities.FormMapActivity$FormMapViewModelFactory
+org/odk/collect/android/widgets/ImageWidget.java
+ org.odk.collect.android.widgets.ImageWidget
+ org.odk.collect.android.widgets.ImageWidget$1
+org/odk/collect/android/widgets/SignatureWidget.java
+ org.odk.collect.android.widgets.SignatureWidget
+org/odk/collect/android/configure/StructureAndTypeSettingsValidator.java
+ org.odk.collect.android.configure.StructureAndTypeSettingsValidator
+org/odk/collect/android/external/FormsContract.java
+ org.odk.collect.android.external.FormsContract
+org/odk/collect/android/formentry/audit/AuditEventLogger.java
+ org.odk.collect.android.formentry.audit.AuditEventLogger
+ org.odk.collect.android.formentry.audit.AuditEventLogger$AuditEventWriter
+org/odk/collect/android/events/RxEventBus.java
+ org.odk.collect.android.events.RxEventBus
+org/odk/collect/android/utilities/UnderlyingValuesConcat.java
+ org.odk.collect.android.utilities.UnderlyingValuesConcat
+org/odk/collect/android/openrosa/OpenRosaXmlFetcher.java
+ org.odk.collect.android.openrosa.OpenRosaXmlFetcher
+org/odk/collect/android/injection/config/AppDependencyComponent.java
+ org.odk.collect.android.injection.config.AppDependencyComponent
+ org.odk.collect.android.injection.config.AppDependencyComponent$Builder
+org/odk/collect/android/widgets/utilities/ExternalAppRecordingRequester.java
+ org.odk.collect.android.widgets.utilities.ExternalAppRecordingRequester
+ org.odk.collect.android.widgets.utilities.ExternalAppRecordingRequester$1
+org/odk/collect/android/widgets/items/LikertWidget.java
+ org.odk.collect.android.widgets.items.LikertWidget
+ org.odk.collect.android.widgets.items.LikertWidget$1
+ org.odk.collect.android.widgets.items.LikertWidget$2
+ org.odk.collect.android.widgets.items.LikertWidget$3
+org/odk/collect/android/fastexternalitemset/ItemsetDbAdapter.java
+ org.odk.collect.android.fastexternalitemset.ItemsetDbAdapter
+ org.odk.collect.android.fastexternalitemset.ItemsetDbAdapter$DatabaseHelper
+org/odk/collect/android/backgroundwork/AutoSendTaskSpec.java
+ org.odk.collect.android.backgroundwork.AutoSendTaskSpec
+ org.odk.collect.android.backgroundwork.AutoSendTaskSpec$Adapter
+org/odk/collect/android/utilities/DialogUtils.java
+ org.odk.collect.android.utilities.DialogUtils
+org/odk/collect/android/geo/OsmMBTileSource.java
+ org.odk.collect.android.geo.OsmMBTileSource
+org/odk/collect/android/injection/config/AppDependencyModule.java
+ org.odk.collect.android.injection.config.AppDependencyModule
+ org.odk.collect.android.injection.config.AppDependencyModule$1
+org/odk/collect/android/tasks/DeleteFormsTask.java
+ org.odk.collect.android.tasks.DeleteFormsTask
+org/odk/collect/android/network/NetworkStateProvider.java
+ org.odk.collect.android.network.NetworkStateProvider
+org/odk/collect/android/geo/MbtilesFile.java
+ org.odk.collect.android.geo.MbtilesFile
+ org.odk.collect.android.geo.MbtilesFile$LayerType
+ org.odk.collect.android.geo.MbtilesFile$MbtilesException
+ org.odk.collect.android.geo.MbtilesFile$NotFileException
+ org.odk.collect.android.geo.MbtilesFile$UnsupportedFilenameException
+ org.odk.collect.android.geo.MbtilesFile$UnsupportedFormatException
+ org.odk.collect.android.geo.MbtilesFile$VectorLayer
+org/odk/collect/android/databinding/TabsLayoutBinding.java
+ org.odk.collect.android.databinding.TabsLayoutBinding
+org/odk/collect/android/activities/viewmodels/MainMenuViewModel.java
+ org.odk.collect.android.activities.viewmodels.MainMenuViewModel
+ org.odk.collect.android.activities.viewmodels.MainMenuViewModel$Factory
+org/odk/collect/android/logic/HierarchyElement.java
+ org.odk.collect.android.logic.HierarchyElement
+ org.odk.collect.android.logic.HierarchyElement$Type
+org/odk/collect/android/gdrive/InstanceGoogleSheetsUploaderTask.java
+ org.odk.collect.android.gdrive.InstanceGoogleSheetsUploaderTask
+org/odk/collect/android/widgets/warnings/SpacesInUnderlyingValuesWarning.java
+ org.odk.collect.android.widgets.warnings.SpacesInUnderlyingValuesWarning
+ org.odk.collect.android.widgets.warnings.SpacesInUnderlyingValuesWarning$1
+ org.odk.collect.android.widgets.warnings.SpacesInUnderlyingValuesWarning$RenderIntoQuestionWidget
+ org.odk.collect.android.widgets.warnings.SpacesInUnderlyingValuesWarning$SpacesInUnderlyingValues
+ org.odk.collect.android.widgets.warnings.SpacesInUnderlyingValuesWarning$SpacesInUnderlyingValuesTextCreator
+ org.odk.collect.android.widgets.warnings.SpacesInUnderlyingValuesWarning$UnderlyingValuesChecker
+ org.odk.collect.android.widgets.warnings.SpacesInUnderlyingValuesWarning$WarningRenderer
+ org.odk.collect.android.widgets.warnings.SpacesInUnderlyingValuesWarning$WarningTextCreator
+org/odk/collect/android/adapters/AboutListAdapter.java
+ org.odk.collect.android.adapters.AboutListAdapter
+ org.odk.collect.android.adapters.AboutListAdapter$AboutItemClickListener
+ org.odk.collect.android.adapters.AboutListAdapter$ViewHolder
+org/odk/collect/android/adapters/model/IconMenuItem.java
+ org.odk.collect.android.adapters.model.IconMenuItem
+org/odk/collect/android/externaldata/ExternalSelectChoice.java
+ org.odk.collect.android.externaldata.ExternalSelectChoice
+org/odk/collect/android/logic/ImmutableDisplayableQuestion.java
+ org.odk.collect.android.logic.ImmutableDisplayableQuestion
+org/odk/collect/android/backgroundwork/InstanceSubmitScheduler.java
+ org.odk.collect.android.backgroundwork.InstanceSubmitScheduler
+org/odk/collect/android/gdrive/GoogleAccountNotSetDialog.java
+ org.odk.collect.android.gdrive.GoogleAccountNotSetDialog
+org/odk/collect/android/widgets/ExArbitraryFileWidget.java
+ org.odk.collect.android.widgets.ExArbitraryFileWidget
+org/odk/collect/android/utilities/ApplicationConstants.java
+ org.odk.collect.android.utilities.ApplicationConstants
+ org.odk.collect.android.utilities.ApplicationConstants$BundleKeys
+ org.odk.collect.android.utilities.ApplicationConstants$FormModes
+ org.odk.collect.android.utilities.ApplicationConstants$Namespaces
+ org.odk.collect.android.utilities.ApplicationConstants$RequestCodes
+ org.odk.collect.android.utilities.ApplicationConstants$SortingOrder
+org/odk/collect/android/utilities/DeviceDetailsProvider.java
+ org.odk.collect.android.utilities.DeviceDetailsProvider
+org/odk/collect/android/databinding/ExVideoWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.ExVideoWidgetAnswerBinding
+org/odk/collect/android/widgets/ExPrinterWidget.java
+ org.odk.collect.android.widgets.ExPrinterWidget
+org/odk/collect/android/utilities/DocumentFetchResult.java
+ org.odk.collect.android.utilities.DocumentFetchResult
+org/odk/collect/android/listeners/ThousandsSeparatorTextWatcher.java
+ org.odk.collect.android.listeners.ThousandsSeparatorTextWatcher
+org/odk/collect/android/tasks/FormSyncTask.java
+ org.odk.collect.android.tasks.FormSyncTask
+org/odk/collect/android/preferences/filters/ControlCharacterFilter.java
+ org.odk.collect.android.preferences.filters.ControlCharacterFilter
+org/odk/collect/android/fragments/dialogs/BikramSambatDatePickerDialog.java
+ org.odk.collect.android.fragments.dialogs.BikramSambatDatePickerDialog
+org/odk/collect/android/geo/SettingsDialogFragment.java
+ org.odk.collect.android.geo.SettingsDialogFragment
+ org.odk.collect.android.geo.SettingsDialogFragment$1
+ org.odk.collect.android.geo.SettingsDialogFragment$2
+ org.odk.collect.android.geo.SettingsDialogFragment$SettingsDialogCallback
+org/odk/collect/android/utilities/MultiClickGuard.java
+ org.odk.collect.android.utilities.MultiClickGuard
+org/odk/collect/android/formentry/audit/IdentityPromptViewModel.java
+ org.odk.collect.android.formentry.audit.IdentityPromptViewModel
+org/odk/collect/android/preferences/screens/MapsPreferencesFragment.java
+ org.odk.collect.android.preferences.screens.MapsPreferencesFragment
+org/odk/collect/android/application/initialization/ApplicationInitializer.java
+ org.odk.collect.android.application.initialization.ApplicationInitializer
+org/odk/collect/android/geo/OsmDroidMapFragment.java
+ org.odk.collect.android.geo.OsmDroidMapFragment
+ org.odk.collect.android.geo.OsmDroidMapFragment$1
+ org.odk.collect.android.geo.OsmDroidMapFragment$2
+ org.odk.collect.android.geo.OsmDroidMapFragment$AttributionOverlay
+ org.odk.collect.android.geo.OsmDroidMapFragment$MapFeature
+ org.odk.collect.android.geo.OsmDroidMapFragment$MarkerFeature
+ org.odk.collect.android.geo.OsmDroidMapFragment$OsmLocationClientWrapper
+ org.odk.collect.android.geo.OsmDroidMapFragment$PolyFeature
+org/odk/collect/android/logic/actions/setgeopoint/CollectSetGeopointAction.java
+ org.odk.collect.android.logic.actions.setgeopoint.CollectSetGeopointAction
+org/odk/collect/android/databinding/ResetDialogLayoutBinding.java
+ org.odk.collect.android.databinding.ResetDialogLayoutBinding
+org/odk/collect/android/databinding/DateTimeWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.DateTimeWidgetAnswerBinding
+org/odk/collect/android/databinding/RangeWidgetHorizontalBinding.java
+ org.odk.collect.android.databinding.RangeWidgetHorizontalBinding
+org/odk/collect/android/preferences/screens/FormManagementPreferencesFragment.java
+ org.odk.collect.android.preferences.screens.FormManagementPreferencesFragment
+ org.odk.collect.android.preferences.screens.FormManagementPreferencesFragment$1
+org/odk/collect/android/utilities/CameraUtils.java
+ org.odk.collect.android.utilities.CameraUtils
+org/odk/collect/android/databinding/ArbitraryFileWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.ArbitraryFileWidgetAnswerBinding
+org/odk/collect/android/utilities/MyanmarDateUtils.java
+ org.odk.collect.android.utilities.MyanmarDateUtils
+org/odk/collect/android/formentry/FormEntryViewModel.java
+ org.odk.collect.android.formentry.FormEntryViewModel
+ org.odk.collect.android.formentry.FormEntryViewModel$Factory
+ org.odk.collect.android.formentry.FormEntryViewModel$FormError
+ org.odk.collect.android.formentry.FormEntryViewModel$NonFatal
+org/odk/collect/android/openrosa/OpenRosaFormSource.java
+ org.odk.collect.android.openrosa.OpenRosaFormSource
+org/odk/collect/android/javarosawrapper/FormIndexUtils.java
+ org.odk.collect.android.javarosawrapper.FormIndexUtils
+org/odk/collect/android/tasks/MediaLoadingTask.java
+ org.odk.collect.android.tasks.MediaLoadingTask
+org/odk/collect/android/upload/UploadAuthRequestedException.java
+ org.odk.collect.android.upload.UploadAuthRequestedException
+org/odk/collect/android/permissions/PermissionsProvider.java
+ org.odk.collect.android.permissions.PermissionsProvider
+ org.odk.collect.android.permissions.PermissionsProvider$1
+ org.odk.collect.android.permissions.PermissionsProvider$10
+ org.odk.collect.android.permissions.PermissionsProvider$2
+ org.odk.collect.android.permissions.PermissionsProvider$3
+ org.odk.collect.android.permissions.PermissionsProvider$4
+ org.odk.collect.android.permissions.PermissionsProvider$5
+ org.odk.collect.android.permissions.PermissionsProvider$6
+ org.odk.collect.android.permissions.PermissionsProvider$7
+ org.odk.collect.android.permissions.PermissionsProvider$8
+ org.odk.collect.android.permissions.PermissionsProvider$9
+org/odk/collect/android/databinding/RangeWidgetVerticalBinding.java
+ org.odk.collect.android.databinding.RangeWidgetVerticalBinding
+org/odk/collect/android/databinding/GeopolyDialogBinding.java
+ org.odk.collect.android.databinding.GeopolyDialogBinding
+org/odk/collect/android/widgets/OSMWidget.java
+ org.odk.collect.android.widgets.OSMWidget
+org/odk/collect/android/widgets/RangePickerIntegerWidget.java
+ org.odk.collect.android.widgets.RangePickerIntegerWidget
+org/odk/collect/android/formentry/BackgroundAudioPermissionDialogFragment.java
+ org.odk.collect.android.formentry.BackgroundAudioPermissionDialogFragment
+ org.odk.collect.android.formentry.BackgroundAudioPermissionDialogFragment$1
+org/odk/collect/android/fragments/InstanceListFragment.java
+ org.odk.collect.android.fragments.InstanceListFragment
+org/odk/collect/android/widgets/ExImageWidget.java
+ org.odk.collect.android.widgets.ExImageWidget
+org/odk/collect/android/audio/Waveform.java
+ org.odk.collect.android.audio.Waveform
+org/odk/collect/android/views/TrackingTouchSlider.java
+ org.odk.collect.android.views.TrackingTouchSlider
+org/odk/collect/android/preferences/utilities/PreferencesUtils.java
+ org.odk.collect.android.preferences.utilities.PreferencesUtils
+org/odk/collect/android/activities/GeoPointMapActivity.java
+ org.odk.collect.android.activities.GeoPointMapActivity
+org/odk/collect/android/fastexternalitemset/ItemsetDao.java
+ org.odk.collect.android.fastexternalitemset.ItemsetDao
+org/odk/collect/android/formentry/media/PromptAutoplayer.java
+ org.odk.collect.android.formentry.media.PromptAutoplayer
+org/odk/collect/android/fragments/dialogs/SelectMultiMinimalDialog.java
+ org.odk.collect.android.fragments.dialogs.SelectMultiMinimalDialog
+org/odk/collect/android/fragments/MapBoxInitializationFragment.java
+ org.odk.collect.android.fragments.MapBoxInitializationFragment
+org/odk/collect/android/application/initialization/migration/KeyValuePair.java
+ org.odk.collect.android.application.initialization.migration.KeyValuePair
+org/odk/collect/android/geo/MapFragment.java
+ org.odk.collect.android.geo.MapFragment
+ org.odk.collect.android.geo.MapFragment$ErrorListener
+ org.odk.collect.android.geo.MapFragment$FeatureListener
+ org.odk.collect.android.geo.MapFragment$IconAnchor
+ org.odk.collect.android.geo.MapFragment$PointListener
+ org.odk.collect.android.geo.MapFragment$ReadyListener
+org/odk/collect/android/widgets/StringNumberWidget.java
+ org.odk.collect.android.widgets.StringNumberWidget
+org/odk/collect/android/gdrive/sheets/DriveApi.java
+ org.odk.collect.android.gdrive.sheets.DriveApi
+org/odk/collect/android/fragments/dialogs/ErrorDialog.java
+ org.odk.collect.android.fragments.dialogs.ErrorDialog
+ org.odk.collect.android.fragments.dialogs.ErrorDialog$1
+org/odk/collect/android/javarosawrapper/FormController.java
+ org.odk.collect.android.javarosawrapper.FormController
+ org.odk.collect.android.javarosawrapper.FormController$FailedConstraint
+ org.odk.collect.android.javarosawrapper.FormController$InstanceMetadata
+org/odk/collect/android/formentry/audit/AuditEvent.java
+ org.odk.collect.android.formentry.audit.AuditEvent
+ org.odk.collect.android.formentry.audit.AuditEvent$AuditEventType
+org/odk/collect/android/views/BarcodeViewDecoder.java
+ org.odk.collect.android.views.BarcodeViewDecoder
+ org.odk.collect.android.views.BarcodeViewDecoder$1
+org/odk/collect/android/fragments/dialogs/MovingBackwardsDialog.java
+ org.odk.collect.android.fragments.dialogs.MovingBackwardsDialog
+ org.odk.collect.android.fragments.dialogs.MovingBackwardsDialog$1
+ org.odk.collect.android.fragments.dialogs.MovingBackwardsDialog$2
+ org.odk.collect.android.fragments.dialogs.MovingBackwardsDialog$MovingBackwardsDialogListener
+org/odk/collect/android/databinding/HierarchyElementBinding.java
+ org.odk.collect.android.databinding.HierarchyElementBinding
+org/odk/collect/android/widgets/items/LabelWidget.java
+ org.odk.collect.android.widgets.items.LabelWidget
+org/odk/collect/android/widgets/DecimalWidget.java
+ org.odk.collect.android.widgets.DecimalWidget
+org/odk/collect/android/widgets/ExDecimalWidget.java
+ org.odk.collect.android.widgets.ExDecimalWidget
+org/odk/collect/android/formentry/FormEntryMenuDelegate.java
+ org.odk.collect.android.formentry.FormEntryMenuDelegate
+org/odk/collect/android/tasks/SaveToDiskResult.java
+ org.odk.collect.android.tasks.SaveToDiskResult
+org/odk/collect/android/utilities/Appearances.java
+ org.odk.collect.android.utilities.Appearances
+org/odk/collect/android/activities/AboutActivity.java
+ org.odk.collect.android.activities.AboutActivity
+org/odk/collect/android/tasks/DeleteInstancesTask.java
+ org.odk.collect.android.tasks.DeleteInstancesTask
+org/odk/collect/android/databinding/OdkViewBinding.java
+ org.odk.collect.android.databinding.OdkViewBinding
+org/odk/collect/android/widgets/utilities/RangeWidgetUtils.java
+ org.odk.collect.android.widgets.utilities.RangeWidgetUtils
+ org.odk.collect.android.widgets.utilities.RangeWidgetUtils$RangeWidgetLayoutElements
+org/odk/collect/android/utilities/AuthDialogUtility.java
+ org.odk.collect.android.utilities.AuthDialogUtility
+ org.odk.collect.android.utilities.AuthDialogUtility$1
+ org.odk.collect.android.utilities.AuthDialogUtility$2
+ org.odk.collect.android.utilities.AuthDialogUtility$AuthDialogUtilityResultListener
+org/odk/collect/android/views/TwoItemMultipleChoiceView.java
+ org.odk.collect.android.views.TwoItemMultipleChoiceView
+org/odk/collect/android/fragments/viewmodels/SelectMinimalViewModel.java
+ org.odk.collect.android.fragments.viewmodels.SelectMinimalViewModel
+ org.odk.collect.android.fragments.viewmodels.SelectMinimalViewModel$1
+ org.odk.collect.android.fragments.viewmodels.SelectMinimalViewModel$Factory
+org/odk/collect/android/upload/UploadException.java
+ org.odk.collect.android.upload.UploadException
+org/odk/collect/android/widgets/GeoTraceWidget.java
+ org.odk.collect.android.widgets.GeoTraceWidget
+org/odk/collect/android/events/ReadPhoneStatePermissionRxEvent.java
+ org.odk.collect.android.events.ReadPhoneStatePermissionRxEvent
+org/odk/collect/android/listeners/AdvanceToNextListener.java
+ org.odk.collect.android.listeners.AdvanceToNextListener
+org/odk/collect/android/fragments/dialogs/EthiopianDatePickerDialog.java
+ org.odk.collect.android.fragments.dialogs.EthiopianDatePickerDialog
+org/odk/collect/android/preferences/screens/UserInterfacePreferencesFragment.java
+ org.odk.collect.android.preferences.screens.UserInterfacePreferencesFragment
+org/odk/collect/android/fragments/dialogs/PersianDatePickerDialog.java
+ org.odk.collect.android.fragments.dialogs.PersianDatePickerDialog
+org/odk/collect/android/utilities/ResponseMessageParser.java
+ org.odk.collect.android.utilities.ResponseMessageParser
+org/odk/collect/android/widgets/GeoShapeWidget.java
+ org.odk.collect.android.widgets.GeoShapeWidget
+org/odk/collect/android/listeners/RecyclerViewClickListener.java
+ org.odk.collect.android.listeners.RecyclerViewClickListener
+org/odk/collect/android/listeners/TaskListener.java
+ org.odk.collect.android.listeners.TaskListener
+org/odk/collect/android/gdrive/GoogleDriveActivity.java
+ org.odk.collect.android.gdrive.GoogleDriveActivity
+ org.odk.collect.android.gdrive.GoogleDriveActivity$1
+ org.odk.collect.android.gdrive.GoogleDriveActivity$2
+ org.odk.collect.android.gdrive.GoogleDriveActivity$3
+ org.odk.collect.android.gdrive.GoogleDriveActivity$GetFileTask
+ org.odk.collect.android.gdrive.GoogleDriveActivity$RetrieveDriveFileContentsAsyncTask
+org/odk/collect/android/widgets/utilities/SearchQueryViewModel.java
+ org.odk.collect.android.widgets.utilities.SearchQueryViewModel
+org/odk/collect/android/widgets/utilities/AudioRecorderRecordingStatusHandler.java
+ org.odk.collect.android.widgets.utilities.AudioRecorderRecordingStatusHandler
+org/odk/collect/android/configure/qr/QRCodeMenuDelegate.java
+ org.odk.collect.android.configure.qr.QRCodeMenuDelegate
+org/odk/collect/android/exception/EncryptionException.java
+ org.odk.collect.android.exception.EncryptionException
+org/odk/collect/android/gdrive/GoogleAccountsManager.java
+ org.odk.collect.android.gdrive.GoogleAccountsManager
+org/odk/collect/android/configure/qr/QRCodeActivityResultDelegate.java
+ org.odk.collect.android.configure.qr.QRCodeActivityResultDelegate
+org/odk/collect/android/instancemanagement/InstanceDiskSynchronizer.java
+ org.odk.collect.android.instancemanagement.InstanceDiskSynchronizer
+org/odk/collect/android/fragments/dialogs/ProgressDialogFragment.java
+ org.odk.collect.android.fragments.dialogs.ProgressDialogFragment
+ org.odk.collect.android.fragments.dialogs.ProgressDialogFragment$Cancellable
+org/odk/collect/android/adapters/InstanceListCursorAdapter.java
+ org.odk.collect.android.adapters.InstanceListCursorAdapter
+org/odk/collect/android/formentry/audit/AuditUtils.java
+ org.odk.collect.android.formentry.audit.AuditUtils
+org/odk/collect/android/activities/CaptureSelfieVideoActivity.java
+ org.odk.collect.android.activities.CaptureSelfieVideoActivity
+org/odk/collect/android/adapters/RankingListAdapter.java
+ org.odk.collect.android.adapters.RankingListAdapter
+ org.odk.collect.android.adapters.RankingListAdapter$ItemViewHolder
+org/odk/collect/android/activities/NotificationActivity.java
+ org.odk.collect.android.activities.NotificationActivity
+org/odk/collect/android/activities/BaseGeoMapActivity.java
+ org.odk.collect.android.activities.BaseGeoMapActivity
+org/odk/collect/android/utilities/CSVUtils.java
+ org.odk.collect.android.utilities.CSVUtils
+org/odk/collect/android/databinding/BackgroundAudioHelpFragmentLayoutBinding.java
+ org.odk.collect.android.databinding.BackgroundAudioHelpFragmentLayoutBinding
+org/odk/collect/android/activities/FillBlankFormActivity.java
+ org.odk.collect.android.activities.FillBlankFormActivity
+ org.odk.collect.android.activities.FillBlankFormActivity$1
+org/odk/collect/android/widgets/interfaces/GeoDataRequester.java
+ org.odk.collect.android.widgets.interfaces.GeoDataRequester
+org/odk/collect/utilities/UserAgentProvider.java
+ org.odk.collect.utilities.UserAgentProvider
+org/odk/collect/android/formentry/RecordingWarningDialogFragment.java
+ org.odk.collect.android.formentry.RecordingWarningDialogFragment
+org/odk/collect/android/formmanagement/FormSourceExceptionMapper.java
+ org.odk.collect.android.formmanagement.FormSourceExceptionMapper
+org/odk/collect/android/listeners/Result.java
+ org.odk.collect.android.listeners.Result
+org/odk/collect/android/widgets/BaseImageWidget.java
+ org.odk.collect.android.widgets.BaseImageWidget
+ org.odk.collect.android.widgets.BaseImageWidget$DrawImageClickHandler
+ org.odk.collect.android.widgets.BaseImageWidget$ExternalImageCaptureHandler
+ org.odk.collect.android.widgets.BaseImageWidget$ImageCaptureHandler
+ org.odk.collect.android.widgets.BaseImageWidget$ImageClickHandler
+ org.odk.collect.android.widgets.BaseImageWidget$ViewImageClickHandler
+org/odk/collect/android/databinding/CustomDatePickerDialogBinding.java
+ org.odk.collect.android.databinding.CustomDatePickerDialogBinding
+org/odk/collect/android/activities/BearingActivity.java
+ org.odk.collect.android.activities.BearingActivity
+ org.odk.collect.android.activities.BearingActivity$1
+org/odk/collect/android/geo/OsmDroidMapConfigurator.java
+ org.odk.collect.android.geo.OsmDroidMapConfigurator
+ org.odk.collect.android.geo.OsmDroidMapConfigurator$WmsOption
+org/odk/collect/android/formentry/questions/AnswersProvider.java
+ org.odk.collect.android.formentry.questions.AnswersProvider
+org/odk/collect/android/views/MultiClickSafeTextInputEditText.java
+ org.odk.collect.android.views.MultiClickSafeTextInputEditText
+org/odk/collect/android/geo/MapConfigurator.java
+ org.odk.collect.android.geo.MapConfigurator
+org/odk/collect/android/widgets/items/RankingWidget.java
+ org.odk.collect.android.widgets.items.RankingWidget
+org/odk/collect/android/geo/OsmMBTileModuleProvider.java
+ org.odk.collect.android.geo.OsmMBTileModuleProvider
+ org.odk.collect.android.geo.OsmMBTileModuleProvider$1
+ org.odk.collect.android.geo.OsmMBTileModuleProvider$TileLoader
+org/odk/collect/android/database/instances/InstanceDatabaseMigrator.java
+ org.odk.collect.android.database.instances.InstanceDatabaseMigrator
+org/odk/collect/android/databinding/FormChooserListItemBinding.java
+ org.odk.collect.android.databinding.FormChooserListItemBinding
+org/odk/collect/android/application/CollectSettingsChangeHandler.java
+ org.odk.collect.android.application.CollectSettingsChangeHandler
+org/odk/collect/android/databinding/FormChooserListItemTextBinding.java
+ org.odk.collect.android.databinding.FormChooserListItemTextBinding
+org/odk/collect/android/gdrive/GoogleSheetsUploaderActivity.java
+ org.odk.collect.android.gdrive.GoogleSheetsUploaderActivity
+ org.odk.collect.android.gdrive.GoogleSheetsUploaderActivity$1
+ org.odk.collect.android.gdrive.GoogleSheetsUploaderActivity$2
+ org.odk.collect.android.gdrive.GoogleSheetsUploaderActivity$AuthorizationChecker
+org/odk/collect/android/widgets/RatingWidget.java
+ org.odk.collect.android.widgets.RatingWidget
+org/odk/collect/android/preferences/screens/ServerPreferencesFragment.java
+ org.odk.collect.android.preferences.screens.ServerPreferencesFragment
+ org.odk.collect.android.preferences.screens.ServerPreferencesFragment$1
+org/odk/collect/android/listeners/DiskSyncListener.java
+ org.odk.collect.android.listeners.DiskSyncListener
+org/odk/collect/android/preferences/GuidanceHint.java
+ org.odk.collect.android.preferences.GuidanceHint
+org/odk/collect/android/databinding/ProgressDialogBinding.java
+ org.odk.collect.android.databinding.ProgressDialogBinding
+org/odk/collect/android/widgets/items/SelectOneImageMapWidget.java
+ org.odk.collect.android.widgets.items.SelectOneImageMapWidget
+org/odk/collect/android/databinding/QuestionWidgetBinding.java
+ org.odk.collect.android.databinding.QuestionWidgetBinding
+org/odk/collect/android/databinding/AudioControllerLayoutBinding.java
+ org.odk.collect.android.databinding.AudioControllerLayoutBinding
+org/odk/collect/android/formentry/BackgroundAudioViewModel.java
+ org.odk.collect.android.formentry.BackgroundAudioViewModel
+ org.odk.collect.android.formentry.BackgroundAudioViewModel$Factory
+ org.odk.collect.android.formentry.BackgroundAudioViewModel$Factory$1
+ org.odk.collect.android.formentry.BackgroundAudioViewModel$RecordAudioActionRegistry
+org/odk/collect/android/adapters/HierarchyListAdapter.java
+ org.odk.collect.android.adapters.HierarchyListAdapter
+ org.odk.collect.android.adapters.HierarchyListAdapter$OnElementClickListener
+ org.odk.collect.android.adapters.HierarchyListAdapter$ViewHolder
+org/odk/collect/utilities/Result.java
+ org.odk.collect.utilities.Result
+org/odk/collect/android/application/Collect.java
+ org.odk.collect.android.application.Collect
+ org.odk.collect.android.application.Collect$1
+org/odk/collect/android/formentry/saving/SaveAnswerFileErrorDialogFragment.java
+ org.odk.collect.android.formentry.saving.SaveAnswerFileErrorDialogFragment
+org/odk/collect/android/formmanagement/ServerFormsDetailsFetcher.java
+ org.odk.collect.android.formmanagement.ServerFormsDetailsFetcher
+org/odk/collect/android/databinding/SplashScreenBinding.java
+ org.odk.collect.android.databinding.SplashScreenBinding
+org/odk/collect/android/databinding/IdentifyUserDialogBinding.java
+ org.odk.collect.android.databinding.IdentifyUserDialogBinding
+org/odk/collect/android/utilities/SelectOneWidgetUtils.java
+ org.odk.collect.android.utilities.SelectOneWidgetUtils
+org/odk/collect/android/tasks/SaveFormIndexTask.java
+ org.odk.collect.android.tasks.SaveFormIndexTask
+ org.odk.collect.android.tasks.SaveFormIndexTask$SaveFormIndexListener
+org/odk/collect/android/activities/ActivityUtils.java
+ org.odk.collect.android.activities.ActivityUtils
+org/odk/collect/android/databinding/GeopolyLayoutBinding.java
+ org.odk.collect.android.databinding.GeopolyLayoutBinding
+org/odk/collect/android/databinding/OsmWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.OsmWidgetAnswerBinding
+org/odk/collect/android/activities/FormListActivity.java
+ org.odk.collect.android.activities.FormListActivity
+org/odk/collect/android/databinding/FragmentCamera2Binding.java
+ org.odk.collect.android.databinding.FragmentCamera2Binding
+org/odk/collect/android/audio/AMRAppender.java
+ org.odk.collect.android.audio.AMRAppender
+org/odk/collect/android/views/SlidingTabLayout.java
+ org.odk.collect.android.views.SlidingTabLayout
+ org.odk.collect.android.views.SlidingTabLayout$1
+ org.odk.collect.android.views.SlidingTabLayout$InternalViewPagerListener
+ org.odk.collect.android.views.SlidingTabLayout$TabClickListener
+ org.odk.collect.android.views.SlidingTabLayout$TabColorizer
+org/odk/collect/android/databinding/WidgetAnswerButtonBinding.java
+ org.odk.collect.android.databinding.WidgetAnswerButtonBinding
+org/odk/collect/android/activities/ViewOnlyFormHierarchyActivity.java
+ org.odk.collect.android.activities.ViewOnlyFormHierarchyActivity
+org/odk/collect/android/formmanagement/BlankFormsListViewModel.java
+ org.odk.collect.android.formmanagement.BlankFormsListViewModel
+ org.odk.collect.android.formmanagement.BlankFormsListViewModel$1
+ org.odk.collect.android.formmanagement.BlankFormsListViewModel$BlankForm
+ org.odk.collect.android.formmanagement.BlankFormsListViewModel$Factory
+org/odk/collect/android/preferences/screens/FormEntryAccessPreferencesFragment.java
+ org.odk.collect.android.preferences.screens.FormEntryAccessPreferencesFragment
+org/odk/collect/android/databinding/FragmentScanBinding.java
+ org.odk.collect.android.databinding.FragmentScanBinding
+org/odk/collect/android/openrosa/OpenRosaResponseParserImpl.java
+ org.odk.collect.android.openrosa.OpenRosaResponseParserImpl
+org/odk/collect/android/tasks/InstanceServerUploaderTask.java
+ org.odk.collect.android.tasks.InstanceServerUploaderTask
+org/odk/collect/android/application/initialization/migration/KeyCombiner.java
+ org.odk.collect.android.application.initialization.migration.KeyCombiner
+org/odk/collect/android/utilities/CustomSQLiteQueryBuilder.java
+ org.odk.collect.android.utilities.CustomSQLiteQueryBuilder
+org/odk/collect/android/databinding/AudioPlayerLayoutBinding.java
+ org.odk.collect.android.databinding.AudioPlayerLayoutBinding
+org/odk/collect/android/utilities/DestroyableLifecyleOwner.java
+ org.odk.collect.android.utilities.DestroyableLifecyleOwner
+org/odk/collect/android/utilities/ContentUriProvider.java
+ org.odk.collect.android.utilities.ContentUriProvider
+org/odk/collect/android/formmanagement/FormDownloadException.java
+ org.odk.collect.android.formmanagement.FormDownloadException
+org/odk/collect/android/geo/MapPoint.java
+ org.odk.collect.android.geo.MapPoint
+ org.odk.collect.android.geo.MapPoint$1
+org/odk/collect/android/externaldata/handler/ExternalDataSearchType.java
+ org.odk.collect.android.externaldata.handler.ExternalDataSearchType
+ org.odk.collect.android.externaldata.handler.ExternalDataSearchType$1
+ org.odk.collect.android.externaldata.handler.ExternalDataSearchType$2
+ org.odk.collect.android.externaldata.handler.ExternalDataSearchType$3
+ org.odk.collect.android.externaldata.handler.ExternalDataSearchType$4
+org/odk/collect/android/fragments/viewmodels/RankingViewModel.java
+ org.odk.collect.android.fragments.viewmodels.RankingViewModel
+ org.odk.collect.android.fragments.viewmodels.RankingViewModel$1
+ org.odk.collect.android.fragments.viewmodels.RankingViewModel$Factory
+org/odk/collect/android/database/instances/DatabaseInstancesRepository.java
+ org.odk.collect.android.database.instances.DatabaseInstancesRepository
+org/odk/collect/android/instancemanagement/InstanceAutoSender.java
+ org.odk.collect.android.instancemanagement.InstanceAutoSender
+ org.odk.collect.android.instancemanagement.InstanceAutoSender$1
+org/odk/collect/android/activities/FormEntryActivity.java
+ org.odk.collect.android.activities.FormEntryActivity
+ org.odk.collect.android.activities.FormEntryActivity$1
+ org.odk.collect.android.activities.FormEntryActivity$2
+ org.odk.collect.android.activities.FormEntryActivity$3
+ org.odk.collect.android.activities.FormEntryActivity$3$1
+ org.odk.collect.android.activities.FormEntryActivity$4
+ org.odk.collect.android.activities.FormEntryActivity$5
+ org.odk.collect.android.activities.FormEntryActivity$6
+ org.odk.collect.android.activities.FormEntryActivity$7
+ org.odk.collect.android.activities.FormEntryActivity$8
+ org.odk.collect.android.activities.FormEntryActivity$8$1
+ org.odk.collect.android.activities.FormEntryActivity$9
+ org.odk.collect.android.activities.FormEntryActivity$AnimationType
+ org.odk.collect.android.activities.FormEntryActivity$EmptyView
+ org.odk.collect.android.activities.FormEntryActivity$LocationProvidersReceiver
+org/odk/collect/android/databinding/SelectMinimalWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.SelectMinimalWidgetAnswerBinding
+org/odk/collect/android/openrosa/OpenRosaServerClient.java
+ org.odk.collect.android.openrosa.OpenRosaServerClient
+org/odk/collect/android/listeners/DownloadFormsTaskListener.java
+ org.odk.collect.android.listeners.DownloadFormsTaskListener
+org/odk/collect/android/fragments/Camera2Fragment.java
+ org.odk.collect.android.fragments.Camera2Fragment
+ org.odk.collect.android.fragments.Camera2Fragment$1
+ org.odk.collect.android.fragments.Camera2Fragment$2
+ org.odk.collect.android.fragments.Camera2Fragment$3
+ org.odk.collect.android.fragments.Camera2Fragment$4
+ org.odk.collect.android.fragments.Camera2Fragment$5
+ org.odk.collect.android.fragments.Camera2Fragment$6
+ org.odk.collect.android.fragments.Camera2Fragment$CompareSizesByArea
+ org.odk.collect.android.fragments.Camera2Fragment$ImageSaver
+org/odk/collect/android/views/DrawView.java
+ org.odk.collect.android.views.DrawView
+org/odk/collect/android/utilities/ActivityResultDelegate.java
+ org.odk.collect.android.utilities.ActivityResultDelegate
+org/odk/collect/android/activities/viewmodels/FormDownloadListViewModel.java
+ org.odk.collect.android.activities.viewmodels.FormDownloadListViewModel
+ org.odk.collect.android.activities.viewmodels.FormDownloadListViewModel$Factory
+org/odk/collect/android/views/CustomNumberPicker.java
+ org.odk.collect.android.views.CustomNumberPicker
+org/odk/collect/android/fragments/dialogs/RankingWidgetDialog.java
+ org.odk.collect.android.fragments.dialogs.RankingWidgetDialog
+ org.odk.collect.android.fragments.dialogs.RankingWidgetDialog$RankingListener
+org/odk/collect/android/databinding/OsmMapLayoutBinding.java
+ org.odk.collect.android.databinding.OsmMapLayoutBinding
+org/odk/collect/android/widgets/VideoWidget.java
+ org.odk.collect.android.widgets.VideoWidget
+ org.odk.collect.android.widgets.VideoWidget$1
+ org.odk.collect.android.widgets.VideoWidget$2
+org/odk/collect/android/views/SlidingTabStrip.java
+ org.odk.collect.android.views.SlidingTabStrip
+ org.odk.collect.android.views.SlidingTabStrip$1
+ org.odk.collect.android.views.SlidingTabStrip$SimpleTabColorizer
+org/odk/collect/android/configure/qr/QRCodeGenerator.java
+ org.odk.collect.android.configure.qr.QRCodeGenerator
+org/odk/collect/android/formentry/audit/AuditConfig.java
+ org.odk.collect.android.formentry.audit.AuditConfig
+ org.odk.collect.android.formentry.audit.AuditConfig$Builder
+org/odk/collect/android/gdrive/GoogleSheetsApi.java
+ org.odk.collect.android.gdrive.GoogleSheetsApi
+org/odk/collect/android/fragments/Camera2VideoFragment.java
+ org.odk.collect.android.fragments.Camera2VideoFragment
+ org.odk.collect.android.fragments.Camera2VideoFragment$1
+ org.odk.collect.android.fragments.Camera2VideoFragment$2
+ org.odk.collect.android.fragments.Camera2VideoFragment$3
+ org.odk.collect.android.fragments.Camera2VideoFragment$4
+ org.odk.collect.android.fragments.Camera2VideoFragment$4$1
+org/odk/collect/android/externaldata/handler/ExternalDataHandlerPull.java
+ org.odk.collect.android.externaldata.handler.ExternalDataHandlerPull
+org/odk/collect/android/externaldata/ExternalDataReader.java
+ org.odk.collect.android.externaldata.ExternalDataReader
+org/odk/collect/android/widgets/utilities/GeoWidgetUtils.java
+ org.odk.collect.android.widgets.utilities.GeoWidgetUtils
+org/odk/collect/android/tasks/SaveFormToDisk.java
+ org.odk.collect.android.tasks.SaveFormToDisk
+org/odk/collect/android/configure/SettingsUtils.java
+ org.odk.collect.android.configure.SettingsUtils
+org/odk/collect/android/databinding/FormEntryEndBinding.java
+ org.odk.collect.android.databinding.FormEntryEndBinding
+org/odk/collect/android/widgets/ExAudioWidget.java
+ org.odk.collect.android.widgets.ExAudioWidget
+ org.odk.collect.android.widgets.ExAudioWidget$1
+org/odk/collect/android/listeners/SavePointListener.java
+ org.odk.collect.android.listeners.SavePointListener
+org/odk/collect/android/utilities/AnimationUtils.java
+ org.odk.collect.android.utilities.AnimationUtils
+ org.odk.collect.android.utilities.AnimationUtils$1
+ org.odk.collect.android.utilities.AnimationUtils$2
+ org.odk.collect.android.utilities.AnimationUtils$3
+ org.odk.collect.android.utilities.AnimationUtils$4
+ org.odk.collect.android.utilities.AnimationUtils$5
+org/odk/collect/android/geo/TileSource.java
+ org.odk.collect.android.geo.TileSource
+org/odk/collect/android/databinding/GeopointLayoutBinding.java
+ org.odk.collect.android.databinding.GeopointLayoutBinding
+org/odk/collect/android/adapters/FileArrayAdapter.java
+ org.odk.collect.android.adapters.FileArrayAdapter
+ org.odk.collect.android.adapters.FileArrayAdapter$ViewHolder
+org/odk/collect/android/javarosawrapper/FormDesignException.java
+ org.odk.collect.android.javarosawrapper.FormDesignException
+org/odk/collect/android/databinding/UrlWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.UrlWidgetAnswerBinding
+org/odk/collect/android/gdrive/GoogleApiProvider.java
+ org.odk.collect.android.gdrive.GoogleApiProvider
+org/odk/collect/android/fragments/dialogs/CopticDatePickerDialog.java
+ org.odk.collect.android.fragments.dialogs.CopticDatePickerDialog
+org/odk/collect/android/databinding/DrawLayoutBinding.java
+ org.odk.collect.android.databinding.DrawLayoutBinding
+org/odk/collect/android/utilities/TranslationHandler.java
+ org.odk.collect.android.utilities.TranslationHandler
+org/odk/collect/android/external/AndroidShortcutsActivity.java
+ org.odk.collect.android.external.AndroidShortcutsActivity
+org/odk/collect/android/formentry/questions/AudioVideoImageTextLabel.java
+ org.odk.collect.android.formentry.questions.AudioVideoImageTextLabel
+org/odk/collect/android/databinding/MainMenuBinding.java
+ org.odk.collect.android.databinding.MainMenuBinding
+org/odk/collect/android/gdrive/GoogleDriveApi.java
+ org.odk.collect.android.gdrive.GoogleDriveApi
+org/odk/collect/android/databinding/ManualProjectCreatorDialogLayoutBinding.java
+ org.odk.collect.android.databinding.ManualProjectCreatorDialogLayoutBinding
+org/odk/collect/android/databinding/PasswordDialogLayoutBinding.java
+ org.odk.collect.android.databinding.PasswordDialogLayoutBinding
+org/odk/collect/android/widgets/utilities/FormControllerWaitingForDataRegistry.java
+ org.odk.collect.android.widgets.utilities.FormControllerWaitingForDataRegistry
+org/odk/collect/android/databinding/AdminPasswordDialogLayoutBinding.java
+ org.odk.collect.android.databinding.AdminPasswordDialogLayoutBinding
+org/odk/collect/android/utilities/DateTimeUtils.java
+ org.odk.collect.android.utilities.DateTimeUtils
+org/odk/collect/android/adapters/InstanceUploaderAdapter.java
+ org.odk.collect.android.adapters.InstanceUploaderAdapter
+ org.odk.collect.android.adapters.InstanceUploaderAdapter$ViewHolder
+org/odk/collect/android/gdrive/GoogleSheetsUploaderProgressDialog.java
+ org.odk.collect.android.gdrive.GoogleSheetsUploaderProgressDialog
+ org.odk.collect.android.gdrive.GoogleSheetsUploaderProgressDialog$OnSendingFormsCanceledListener
+org/odk/collect/android/utilities/MenuDelegate.java
+ org.odk.collect.android.utilities.MenuDelegate
+org/odk/collect/android/databinding/NamedViewIdsBinding.java
+ org.odk.collect.android.databinding.NamedViewIdsBinding
+org/odk/collect/android/exception/GDriveConnectionException.java
+ org.odk.collect.android.exception.GDriveConnectionException
+org/odk/collect/android/fragments/FormListFragment.java
+ org.odk.collect.android.fragments.FormListFragment
+org/odk/collect/android/utilities/CustomSQLiteQueryExecutor.java
+ org.odk.collect.android.utilities.CustomSQLiteQueryExecutor
+org/odk/collect/android/adapters/SortDialogAdapter.java
+ org.odk.collect.android.adapters.SortDialogAdapter
+ org.odk.collect.android.adapters.SortDialogAdapter$ViewHolder
+ org.odk.collect.android.adapters.SortDialogAdapter$ViewHolder$1
+org/odk/collect/android/database/forms/FormDatabaseMigrator.java
+ org.odk.collect.android.database.forms.FormDatabaseMigrator
+org/odk/collect/android/logic/actions/setgeopoint/CollectSetGeopointActionHandler.java
+ org.odk.collect.android.logic.actions.setgeopoint.CollectSetGeopointActionHandler
+org/odk/collect/android/databinding/SelectImageMapWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.SelectImageMapWidgetAnswerBinding
+org/odk/collect/android/databinding/AudioWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.AudioWidgetAnswerBinding
+org/odk/collect/android/geo/mapboxsdk/MapFragment.java
+ org.odk.collect.android.geo.mapboxsdk.MapFragment
+ org.odk.collect.android.geo.mapboxsdk.MapFragment$OnMapViewReadyCallback
+org/odk/collect/android/listeners/OnBackPressedListener.java
+ org.odk.collect.android.listeners.OnBackPressedListener
+org/odk/collect/android/formentry/QuitFormDialogFragment.java
+ org.odk.collect.android.formentry.QuitFormDialogFragment
+ org.odk.collect.android.formentry.QuitFormDialogFragment$Listener
+org/odk/collect/android/configure/qr/QRCodeDecoder.java
+ org.odk.collect.android.configure.qr.QRCodeDecoder
+ org.odk.collect.android.configure.qr.QRCodeDecoder$InvalidException
+ org.odk.collect.android.configure.qr.QRCodeDecoder$NotFoundException
+org/odk/collect/android/widgets/utilities/AudioPlayer.java
+ org.odk.collect.android.widgets.utilities.AudioPlayer
+org/odk/collect/android/openrosa/OpenRosaHttpInterface.java
+ org.odk.collect.android.openrosa.OpenRosaHttpInterface
+ org.odk.collect.android.openrosa.OpenRosaHttpInterface$FileToContentTypeMapper
+org/odk/collect/android/formentry/backgroundlocation/BackgroundLocationViewModel.java
+ org.odk.collect.android.formentry.backgroundlocation.BackgroundLocationViewModel
+ org.odk.collect.android.formentry.backgroundlocation.BackgroundLocationViewModel$Factory
+org/odk/collect/android/fragments/dialogs/NumberPickerDialog.java
+ org.odk.collect.android.fragments.dialogs.NumberPickerDialog
+ org.odk.collect.android.fragments.dialogs.NumberPickerDialog$1
+ org.odk.collect.android.fragments.dialogs.NumberPickerDialog$2
+ org.odk.collect.android.fragments.dialogs.NumberPickerDialog$NumberPickerListener
+org/odk/collect/android/formentry/RecordingHandler.java
+ org.odk.collect.android.formentry.RecordingHandler
+org/odk/collect/android/widgets/ArbitraryFileWidget.java
+ org.odk.collect.android.widgets.ArbitraryFileWidget
+org/odk/collect/android/database/DatabaseMigrator.java
+ org.odk.collect.android.database.DatabaseMigrator
+org/odk/collect/android/databinding/GeoWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.GeoWidgetAnswerBinding
+org/odk/collect/android/views/ChoicesRecyclerView.java
+ org.odk.collect.android.views.ChoicesRecyclerView
+org/odk/collect/android/databinding/SelectOneItemBinding.java
+ org.odk.collect.android.databinding.SelectOneItemBinding
+org/odk/collect/android/databinding/TimeWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.TimeWidgetAnswerBinding
+org/odk/collect/android/views/MultiClickSafeImageButton.java
+ org.odk.collect.android.views.MultiClickSafeImageButton
+org/odk/collect/android/widgets/ExIntegerWidget.java
+ org.odk.collect.android.widgets.ExIntegerWidget
+org/odk/collect/android/widgets/WidgetFactory.java
+ org.odk.collect.android.widgets.WidgetFactory
+org/odk/collect/android/utilities/MediaUtils.java
+ org.odk.collect.android.utilities.MediaUtils
+org/odk/collect/android/databinding/FormChooserListItemMultipleChoiceBinding.java
+ org.odk.collect.android.databinding.FormChooserListItemMultipleChoiceBinding
+org/odk/collect/android/widgets/utilities/AudioFileRequester.java
+ org.odk.collect.android.widgets.utilities.AudioFileRequester
+org/odk/collect/android/utilities/WebCredentialsUtils.java
+ org.odk.collect.android.utilities.WebCredentialsUtils
+org/odk/collect/android/databinding/InstanceUploaderListBinding.java
+ org.odk.collect.android.databinding.InstanceUploaderListBinding
+org/odk/collect/android/openrosa/okhttp/OkHttpConnection.java
+ org.odk.collect.android.openrosa.okhttp.OkHttpConnection
+org/odk/collect/android/widgets/items/BaseSelectListWidget.java
+ org.odk.collect.android.widgets.items.BaseSelectListWidget
+ org.odk.collect.android.widgets.items.BaseSelectListWidget$1
+org/odk/collect/android/utilities/RankingItemTouchHelperCallback.java
+ org.odk.collect.android.utilities.RankingItemTouchHelperCallback
+org/odk/collect/android/activities/InstanceUploaderListActivity.java
+ org.odk.collect.android.activities.InstanceUploaderListActivity
+org/odk/collect/android/utilities/SoftKeyboardController.java
+ org.odk.collect.android.utilities.SoftKeyboardController
+org/odk/collect/android/fragments/dialogs/SimpleDialog.java
+ org.odk.collect.android.fragments.dialogs.SimpleDialog
+org/odk/collect/android/widgets/GeoPointMapWidget.java
+ org.odk.collect.android.widgets.GeoPointMapWidget
+org/odk/collect/android/formentry/backgroundlocation/BackgroundLocationManager.java
+ org.odk.collect.android.formentry.backgroundlocation.BackgroundLocationManager
+ org.odk.collect.android.formentry.backgroundlocation.BackgroundLocationManager$1
+ org.odk.collect.android.formentry.backgroundlocation.BackgroundLocationManager$BackgroundLocationMessage
+ org.odk.collect.android.formentry.backgroundlocation.BackgroundLocationManager$BackgroundLocationState
+org/odk/collect/android/openrosa/CollectThenSystemContentTypeMapper.java
+ org.odk.collect.android.openrosa.CollectThenSystemContentTypeMapper
+ org.odk.collect.android.openrosa.CollectThenSystemContentTypeMapper$CollectContentTypeMappings
+org/odk/collect/android/formentry/RefreshFormListDialogFragment.java
+ org.odk.collect.android.formentry.RefreshFormListDialogFragment
+ org.odk.collect.android.formentry.RefreshFormListDialogFragment$RefreshFormListDialogFragmentListener
+org/odk/collect/android/widgets/GeoPointWidget.java
+ org.odk.collect.android.widgets.GeoPointWidget
+org/odk/collect/android/widgets/IntegerWidget.java
+ org.odk.collect.android.widgets.IntegerWidget
+org/odk/collect/android/fragments/dialogs/ResetSettingsResultDialog.java
+ org.odk.collect.android.fragments.dialogs.ResetSettingsResultDialog
+ org.odk.collect.android.fragments.dialogs.ResetSettingsResultDialog$1
+ org.odk.collect.android.fragments.dialogs.ResetSettingsResultDialog$ResetSettingsResultDialogListener
+org/odk/collect/android/activities/CollectAbstractActivity.java
+ org.odk.collect.android.activities.CollectAbstractActivity
+org/odk/collect/android/widgets/interfaces/FileWidget.java
+ org.odk.collect.android.widgets.interfaces.FileWidget
+org/odk/collect/android/adapters/AbstractSelectListAdapter.java
+ org.odk.collect.android.adapters.AbstractSelectListAdapter
+ org.odk.collect.android.adapters.AbstractSelectListAdapter$1
+ org.odk.collect.android.adapters.AbstractSelectListAdapter$ViewHolder
+org/odk/collect/android/metadata/SharedPreferencesInstallIDProvider.java
+ org.odk.collect.android.metadata.SharedPreferencesInstallIDProvider
+org/odk/collect/android/databinding/FormChooserListBinding.java
+ org.odk.collect.android.databinding.FormChooserListBinding
+org/odk/collect/android/widgets/utilities/DateTimeWidgetUtils.java
+ org.odk.collect.android.widgets.utilities.DateTimeWidgetUtils
+ org.odk.collect.android.widgets.utilities.DateTimeWidgetUtils$1
+org/odk/collect/android/databinding/SelectMinimalDialogLayoutBinding.java
+ org.odk.collect.android.databinding.SelectMinimalDialogLayoutBinding
+org/odk/collect/android/fragments/BlankFormListFragment.java
+ org.odk.collect.android.fragments.BlankFormListFragment
+ org.odk.collect.android.fragments.BlankFormListFragment$1
+ org.odk.collect.android.fragments.BlankFormListFragment$BackgroundTasks
+org/odk/collect/android/formentry/saving/FormSaveViewModel.java
+ org.odk.collect.android.formentry.saving.FormSaveViewModel
+ org.odk.collect.android.formentry.saving.FormSaveViewModel$1
+ org.odk.collect.android.formentry.saving.FormSaveViewModel$FactoryFactory
+ org.odk.collect.android.formentry.saving.FormSaveViewModel$SaveRequest
+ org.odk.collect.android.formentry.saving.FormSaveViewModel$SaveResult
+ org.odk.collect.android.formentry.saving.FormSaveViewModel$SaveResult$State
+ org.odk.collect.android.formentry.saving.FormSaveViewModel$SaveTask
+ org.odk.collect.android.formentry.saving.FormSaveViewModel$SaveTask$Listener
+org/odk/collect/android/fragments/dialogs/FixedDatePickerDialog.java
+ org.odk.collect.android.fragments.dialogs.FixedDatePickerDialog
+org/odk/collect/android/configure/qr/QRCodeUtils.java
+ org.odk.collect.android.configure.qr.QRCodeUtils
+org/odk/collect/android/formmanagement/DiskFormsSynchronizer.java
+ org.odk.collect.android.formmanagement.DiskFormsSynchronizer
+org/odk/collect/android/backgroundwork/AutoUpdateTaskSpec.java
+ org.odk.collect.android.backgroundwork.AutoUpdateTaskSpec
+ org.odk.collect.android.backgroundwork.AutoUpdateTaskSpec$Adapter
+org/odk/collect/android/openrosa/okhttp/OkHttpCaseInsensitiveHeaders.java
+ org.odk.collect.android.openrosa.okhttp.OkHttpCaseInsensitiveHeaders
+org/odk/collect/android/widgets/utilities/RecordingRequester.java
+ org.odk.collect.android.widgets.utilities.RecordingRequester
+org/odk/collect/android/widgets/ExStringWidget.java
+ org.odk.collect.android.widgets.ExStringWidget
+ org.odk.collect.android.widgets.ExStringWidget$1
+org/odk/collect/android/utilities/FormNameUtils.java
+ org.odk.collect.android.utilities.FormNameUtils
+org/odk/collect/android/widgets/items/SelectMultiWidget.java
+ org.odk.collect.android.widgets.items.SelectMultiWidget
+org/odk/collect/android/formentry/FormEndView.java
+ org.odk.collect.android.formentry.FormEndView
+ org.odk.collect.android.formentry.FormEndView$1
+ org.odk.collect.android.formentry.FormEndView$Listener
+org/odk/collect/android/logic/DriveListItem.java
+ org.odk.collect.android.logic.DriveListItem
+ org.odk.collect.android.logic.DriveListItem$1
+org/odk/collect/android/gdrive/GoogleDriveFormDownloadListener.java
+ org.odk.collect.android.gdrive.GoogleDriveFormDownloadListener
+org/odk/collect/android/utilities/FormDefCache.java
+ org.odk.collect.android.utilities.FormDefCache
+org/odk/collect/android/adapters/ViewPagerAdapter.java
+ org.odk.collect.android.adapters.ViewPagerAdapter
+org/odk/collect/android/databinding/ProgressBarViewBinding.java
+ org.odk.collect.android.databinding.ProgressBarViewBinding
+org/odk/collect/android/externaldata/handler/ExternalDataHandlerSearch.java
+ org.odk.collect.android.externaldata.handler.ExternalDataHandlerSearch
+org/odk/collect/android/formentry/loading/FormInstanceFileCreator.java
+ org.odk.collect.android.formentry.loading.FormInstanceFileCreator
+org/odk/collect/android/preferences/CaptionedListPreference.java
+ org.odk.collect.android.preferences.CaptionedListPreference
+ org.odk.collect.android.preferences.CaptionedListPreference$Item
+org/odk/collect/android/activities/FormDownloadListActivity.java
+ org.odk.collect.android.activities.FormDownloadListActivity
+ org.odk.collect.android.activities.FormDownloadListActivity$1
+ org.odk.collect.android.activities.FormDownloadListActivity$2
+ org.odk.collect.android.activities.FormDownloadListActivity$3
+ org.odk.collect.android.activities.FormDownloadListActivity$4
+org/odk/collect/android/exception/ExternalParamsException.java
+ org.odk.collect.android.exception.ExternalParamsException
+org/odk/collect/android/geo/OsmMBTileProvider.java
+ org.odk.collect.android.geo.OsmMBTileProvider
+org/odk/collect/android/widgets/utilities/ActivityGeoDataRequester.java
+ org.odk.collect.android.widgets.utilities.ActivityGeoDataRequester
+ org.odk.collect.android.widgets.utilities.ActivityGeoDataRequester$1
+ org.odk.collect.android.widgets.utilities.ActivityGeoDataRequester$2
+ org.odk.collect.android.widgets.utilities.ActivityGeoDataRequester$3
+org/odk/collect/android/widgets/items/ListMultiWidget.java
+ org.odk.collect.android.widgets.items.ListMultiWidget
+ org.odk.collect.android.widgets.items.ListMultiWidget$1
+org/odk/collect/android/gdrive/sheets/SheetsHelper.java
+ org.odk.collect.android.gdrive.sheets.SheetsHelper
+org/odk/collect/android/geo/MapboxMapConfigurator.java
+ org.odk.collect.android.geo.MapboxMapConfigurator
+ org.odk.collect.android.geo.MapboxMapConfigurator$MapboxUrlOption
+org/odk/collect/android/views/InstanceUploaderProgressBar.java
+ org.odk.collect.android.views.InstanceUploaderProgressBar
+org/odk/collect/android/widgets/items/SelectMultiMinimalWidget.java
+ org.odk.collect.android.widgets.items.SelectMultiMinimalWidget
+org/odk/collect/android/utilities/HtmlUtils.java
+ org.odk.collect.android.utilities.HtmlUtils
+ org.odk.collect.android.utilities.HtmlUtils$1
+org/odk/collect/android/databinding/ActivityCustomScannerBinding.java
+ org.odk.collect.android.databinding.ActivityCustomScannerBinding
+org/odk/collect/android/application/initialization/migration/KeyRenamer.java
+ org.odk.collect.android.application.initialization.migration.KeyRenamer
+org/odk/collect/android/widgets/utilities/GetContentAudioFileRequester.java
+ org.odk.collect.android.widgets.utilities.GetContentAudioFileRequester
+org/odk/collect/android/widgets/DateTimeWidget.java
+ org.odk.collect.android.widgets.DateTimeWidget
+org/odk/collect/android/audio/M4AAppender.java
+ org.odk.collect.android.audio.M4AAppender
+org/odk/collect/android/activities/InstanceChooserList.java
+ org.odk.collect.android.activities.InstanceChooserList
+ org.odk.collect.android.activities.InstanceChooserList$1
+org/odk/collect/android/formentry/saving/FormSaver.java
+ org.odk.collect.android.formentry.saving.FormSaver
+ org.odk.collect.android.formentry.saving.FormSaver$ProgressListener
+org/odk/collect/android/databinding/BearingWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.BearingWidgetAnswerBinding
+org/odk/collect/android/activities/DrawActivity.java
+ org.odk.collect.android.activities.DrawActivity
+ org.odk.collect.android.activities.DrawActivity$1
+ org.odk.collect.android.activities.DrawActivity$2
+org/odk/collect/android/activities/ScannerWithFlashlightActivity.java
+ org.odk.collect.android.activities.ScannerWithFlashlightActivity
+org/odk/collect/android/preferences/dialogs/ReferenceLayerPreferenceDialog.java
+ org.odk.collect.android.preferences.dialogs.ReferenceLayerPreferenceDialog
+org/odk/collect/android/formmanagement/FormMetadataParser.java
+ org.odk.collect.android.formmanagement.FormMetadataParser
+org/odk/collect/android/application/initialization/CollectSettingsMigrator.java
+ org.odk.collect.android.application.initialization.CollectSettingsMigrator
+org/odk/collect/android/formentry/audit/AuditEventCSVLine.java
+ org.odk.collect.android.formentry.audit.AuditEventCSVLine
+org/odk/collect/android/listeners/ActionListener.java
+ org.odk.collect.android.listeners.ActionListener
+org/odk/collect/android/openrosa/CaseInsensitiveHeaders.java
+ org.odk.collect.android.openrosa.CaseInsensitiveHeaders
+org/odk/collect/android/audio/BackgroundAudioHelpDialogFragment.java
+ org.odk.collect.android.audio.BackgroundAudioHelpDialogFragment
+org/odk/collect/android/fragments/dialogs/LocationProvidersDisabledDialog.java
+ org.odk.collect.android.fragments.dialogs.LocationProvidersDisabledDialog
+org/odk/collect/android/openrosa/HttpPostResult.java
+ org.odk.collect.android.openrosa.HttpPostResult
+org/odk/collect/android/utilities/IconUtils.java
+ org.odk.collect.android.utilities.IconUtils
+org/odk/collect/android/network/ConnectivityProvider.java
+ org.odk.collect.android.network.ConnectivityProvider
+org/odk/collect/android/preferences/dialogs/ResetDialogPreference.java
+ org.odk.collect.android.preferences.dialogs.ResetDialogPreference
+org/odk/collect/android/audio/AudioControllerView.java
+ org.odk.collect.android.audio.AudioControllerView
+ org.odk.collect.android.audio.AudioControllerView$1
+ org.odk.collect.android.audio.AudioControllerView$Listener
+ org.odk.collect.android.audio.AudioControllerView$SwipableParent
+ org.odk.collect.android.audio.AudioControllerView$SwipeListener
+org/odk/collect/android/databinding/ExArbitraryFileWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.ExArbitraryFileWidgetAnswerBinding
+org/odk/collect/android/utilities/PlayServicesChecker.java
+ org.odk.collect.android.utilities.PlayServicesChecker
+org/odk/collect/android/widgets/ExVideoWidget.java
+ org.odk.collect.android.widgets.ExVideoWidget
+org/odk/collect/android/databinding/MapboxFragmentLayoutBinding.java
+ org.odk.collect.android.databinding.MapboxFragmentLayoutBinding
+org/odk/collect/android/databinding/CaptionedListDialogBinding.java
+ org.odk.collect.android.databinding.CaptionedListDialogBinding
+org/odk/collect/android/widgets/UrlWidget.java
+ org.odk.collect.android.widgets.UrlWidget
+org/odk/collect/android/widgets/items/SelectMinimalWidget.java
+ org.odk.collect.android.widgets.items.SelectMinimalWidget
+org/odk/collect/android/tasks/DownloadFormsTask.java
+ org.odk.collect.android.tasks.DownloadFormsTask
+org/odk/collect/android/formentry/FormLoadingDialogFragment.java
+ org.odk.collect.android.formentry.FormLoadingDialogFragment
+ org.odk.collect.android.formentry.FormLoadingDialogFragment$FormLoadingDialogFragmentListener
+org/odk/collect/android/formmanagement/ServerFormDetails.java
+ org.odk.collect.android.formmanagement.ServerFormDetails
+org/odk/collect/android/views/MultiClickSafeButton.java
+ org.odk.collect.android.views.MultiClickSafeButton
+org/odk/collect/android/utilities/ZipUtils.java
+ org.odk.collect.android.utilities.ZipUtils
+org/odk/collect/android/gdrive/GoogleAccountPicker.java
+ org.odk.collect.android.gdrive.GoogleAccountPicker
+org/odk/collect/android/formentry/audit/IdentifyUserPromptDialogFragment.java
+ org.odk.collect.android.formentry.audit.IdentifyUserPromptDialogFragment
+ org.odk.collect.android.formentry.audit.IdentifyUserPromptDialogFragment$1
+org/odk/collect/android/utilities/ScreenUtils.java
+ org.odk.collect.android.utilities.ScreenUtils
+org/odk/collect/android/exception/InvalidSyntaxException.java
+ org.odk.collect.android.exception.InvalidSyntaxException
+org/odk/collect/android/databinding/RatingWidgetAnswerBinding.java
+ org.odk.collect.android.databinding.RatingWidgetAnswerBinding
+org/odk/collect/android/databinding/CurrentProjectMenuIconBinding.java
+ org.odk.collect.android.databinding.CurrentProjectMenuIconBinding
+org/odk/collect/android/activities/DeleteSavedFormActivity.java
+ org.odk.collect.android.activities.DeleteSavedFormActivity
+org/odk/collect/android/utilities/FileUtils.java
+ org.odk.collect.android.utilities.FileUtils
+ org.odk.collect.android.utilities.FileUtils$Walker
+org/odk/collect/android/widgets/utilities/InternalRecordingRequester.java
+ org.odk.collect.android.widgets.utilities.InternalRecordingRequester
+ org.odk.collect.android.widgets.utilities.InternalRecordingRequester$1
+org/odk/collect/android/configure/qr/QRCodeTabsActivity.java
+ org.odk.collect.android.configure.qr.QRCodeTabsActivity
+ org.odk.collect.android.configure.qr.QRCodeTabsActivity$1
+org/odk/collect/android/tasks/DownloadFormListTask.java
+ org.odk.collect.android.tasks.DownloadFormListTask
+org/odk/collect/android/databinding/ActivityCaptureSelfieVideoBinding.java
+ org.odk.collect.android.databinding.ActivityCaptureSelfieVideoBinding
+org/odk/collect/android/configure/SettingsValidator.java
+ org.odk.collect.android.configure.SettingsValidator
+org/odk/collect/android/databinding/SubmissionSummaryLayoutBinding.java
+ org.odk.collect.android.databinding.SubmissionSummaryLayoutBinding
+org/odk/collect/android/backgroundwork/FormUpdateScheduler.java
+ org.odk.collect.android.backgroundwork.FormUpdateScheduler
+org/odk/collect/android/databinding/SimpleSpinnerDropdownItemBinding.java
+ org.odk.collect.android.databinding.SimpleSpinnerDropdownItemBinding
+org/odk/collect/android/upload/InstanceServerUploader.java
+ org.odk.collect.android.upload.InstanceServerUploader
+org/odk/collect/android/widgets/interfaces/MultiChoiceWidget.java
+ org.odk.collect.android.widgets.interfaces.MultiChoiceWidget
+org/odk/collect/android/formentry/questions/QuestionTextSizeHelper.java
+ org.odk.collect.android.formentry.questions.QuestionTextSizeHelper
+org/odk/collect/android/instancemanagement/SubmitException.java
+ org.odk.collect.android.instancemanagement.SubmitException
+ org.odk.collect.android.instancemanagement.SubmitException$Type
+org/odk/collect/android/widgets/DrawWidget.java
+ org.odk.collect.android.widgets.DrawWidget
+org/odk/collect/android/activities/GeoPointActivity.java
+ org.odk.collect.android.activities.GeoPointActivity
+ org.odk.collect.android.activities.GeoPointActivity$1
+ org.odk.collect.android.activities.GeoPointActivity$2
+org/odk/collect/android/utilities/InstanceUploaderUtils.java
+ org.odk.collect.android.utilities.InstanceUploaderUtils
+org/odk/collect/android/preferences/screens/FormMetadataPreferencesFragment.java
+ org.odk.collect.android.preferences.screens.FormMetadataPreferencesFragment
+ org.odk.collect.android.preferences.screens.FormMetadataPreferencesFragment$1
+ org.odk.collect.android.preferences.screens.FormMetadataPreferencesFragment$PropertyManagerPropertySummaryProvider
+org/odk/collect/android/formentry/FormIndexAnimationHandler.java
+ org.odk.collect.android.formentry.FormIndexAnimationHandler
+ org.odk.collect.android.formentry.FormIndexAnimationHandler$Direction
+ org.odk.collect.android.formentry.FormIndexAnimationHandler$Listener
+org/odk/collect/android/widgets/utilities/RecordingRequesterProvider.java
+ org.odk.collect.android.widgets.utilities.RecordingRequesterProvider
+org/odk/collect/android/instancemanagement/InstanceSubmitter.java
+ org.odk.collect.android.instancemanagement.InstanceSubmitter
+org/odk/collect/android/formentry/questions/QuestionDetails.java
+ org.odk.collect.android.formentry.questions.QuestionDetails
+org/odk/collect/android/widgets/items/SelectOneMinimalWidget.java
+ org.odk.collect.android.widgets.items.SelectOneMinimalWidget
+org/odk/collect/android/externaldata/ExternalDataUtil.java
+ org.odk.collect.android.externaldata.ExternalDataUtil
+org/odk/collect/android/audio/AudioHelper.java
+ org.odk.collect.android.audio.AudioHelper
+ org.odk.collect.android.audio.AudioHelper$AudioButtonListener
+ org.odk.collect.android.audio.AudioHelper$BackgroundObserver
+org/odk/collect/android/fastexternalitemset/XPathParseTool.java
+ org.odk.collect.android.fastexternalitemset.XPathParseTool
