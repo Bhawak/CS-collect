@@ -1,4 +1,7 @@
 ## This is forked from ODK collect and is localized for Citizen Science Project for CAP2030 Nepal
+```
+The forms and associated media files used for this project are inside CAP2030-forms folder.
+```
 
 # ODK Collect
 ![Platform](https://img.shields.io/badge/platform-Android-blue.svg)
